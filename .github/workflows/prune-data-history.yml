@@ -1,0 +1,51 @@
+name: Prune Data File History
+
+on:
+  schedule:
+    - cron: '0 1 * * 1'   # Every Monday at 01:00 UTC
+  workflow_dispatch:        # Also run manually on demand
+
+permissions:
+  contents: write
+
+jobs:
+  prune:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout full history
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Install git-filter-repo
+        run: pip install git-filter-repo
+
+      - name: Save current data files
+        run: |
+          mkdir -p /tmp/saved_data
+          cp -r docs/data/. /tmp/saved_data/
+          echo "Saved data files:"
+          ls -lh /tmp/saved_data/
+
+      - name: Remove docs/data from all history
+        run: |
+          git filter-repo \
+            --path docs/data \
+            --invert-paths \
+            --force
+
+      - name: Re-add current data as a single fresh commit
+        run: |
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          mkdir -p docs/data
+          cp -r /tmp/saved_data/. docs/data/
+          git add docs/data/
+          git commit -m "chore: squash data history to save space [skip ci]"
+
+      - name: Force-push cleaned history
+        run: |
+          git push --force origin main
+          echo "✅ History pruned. Repo size before/after:"
+          git count-objects -vH
