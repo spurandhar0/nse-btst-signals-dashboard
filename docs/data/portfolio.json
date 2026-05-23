@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "symbol": "LEMERITE",
+    "added_date": "2026-05-23",
+    "avg_buy": 341.2,
+    "qty": 18,
+    "current_ltp": 274.6,
+    "target": 358.26,
+    "status": "No"
+  }
+]
