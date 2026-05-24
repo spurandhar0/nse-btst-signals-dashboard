@@ -7,5 +7,14 @@
     "current_ltp": 611.5,
     "target": 650.79,
     "status": "No"
+  },
+  {
+    "symbol": "GOKULAGRO",
+    "added_date": "2026-05-24",
+    "avg_buy": 222.77,
+    "qty": 22,
+    "current_ltp": 221.39,
+    "target": 233.91,
+    "status": "No"
   }
 ]
