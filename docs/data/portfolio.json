@@ -16,5 +16,14 @@
     "current_ltp": 221.39,
     "target": 233.91,
     "status": "No"
+  },
+  {
+    "symbol": "DMCC",
+    "added_date": "2026-05-24",
+    "avg_buy": 282.9,
+    "qty": 36,
+    "current_ltp": 277.15,
+    "target": 297.05,
+    "status": "No"
   }
 ]
