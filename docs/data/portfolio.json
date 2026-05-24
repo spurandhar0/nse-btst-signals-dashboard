@@ -7,5 +7,14 @@
     "current_ltp": 210.6,
     "target": 236.04,
     "status": "No"
+  },
+  {
+    "symbol": "LEMERITE",
+    "added_date": "2026-05-24",
+    "avg_buy": 341.2,
+    "qty": 18,
+    "current_ltp": 274.6,
+    "target": 358.26,
+    "status": "No"
   }
 ]
