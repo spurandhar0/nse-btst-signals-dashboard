@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "symbol": "NIITMTS",
+    "added_date": "2026-05-25",
+    "avg_buy": 224.8,
+    "qty": 23,
+    "current_ltp": 210.6,
+    "target": 236.04,
+    "status": "No"
+  }
+]
