@@ -520,5 +520,14 @@
     "current_ltp": 670.7,
     "target": 715.73,
     "status": "No"
+  },
+  {
+    "symbol": "BRIGADE",
+    "added_date": "2026-05-26",
+    "avg_buy": 678.61,
+    "qty": 7,
+    "current_ltp": 669.55,
+    "target": 712.54,
+    "status": "No"
   }
 ]
