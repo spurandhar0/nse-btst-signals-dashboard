@@ -619,5 +619,14 @@
     "current_ltp": 332.1,
     "target": 351.07,
     "status": "No"
+  },
+  {
+    "symbol": "SHAKTIPUMP",
+    "added_date": "2026-05-26",
+    "avg_buy": 514.59,
+    "qty": 9,
+    "current_ltp": 511.15,
+    "target": 540.32,
+    "status": "No"
   }
 ]
