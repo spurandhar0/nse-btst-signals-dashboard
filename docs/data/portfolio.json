@@ -502,5 +502,14 @@
     "current_ltp": 394.8,
     "target": 421.56,
     "status": "No"
+  },
+  {
+    "symbol": "ARSSBL",
+    "added_date": "2026-05-26",
+    "avg_buy": 546.45,
+    "qty": 9,
+    "current_ltp": 537.45,
+    "target": 573.77,
+    "status": "No"
   }
 ]
