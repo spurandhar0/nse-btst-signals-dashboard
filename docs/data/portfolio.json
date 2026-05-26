@@ -214,5 +214,14 @@
     "current_ltp": 677.05,
     "target": 722.04,
     "status": "No"
+  },
+  {
+    "symbol": "JUNIPER",
+    "added_date": "2026-05-26",
+    "avg_buy": 200.14,
+    "qty": 25,
+    "current_ltp": 197.2,
+    "target": 210.15,
+    "status": "No"
   }
 ]
