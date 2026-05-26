@@ -592,5 +592,14 @@
     "current_ltp": 165.74,
     "target": 175.4,
     "status": "No"
+  },
+  {
+    "symbol": "JUBLFOOD",
+    "added_date": "2026-05-26",
+    "avg_buy": 442.15,
+    "qty": 11,
+    "current_ltp": 438.75,
+    "target": 464.26,
+    "status": "No"
   }
 ]
