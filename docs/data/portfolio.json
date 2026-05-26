@@ -610,5 +610,14 @@
     "current_ltp": 303.65,
     "target": 321.12,
     "status": "No"
+  },
+  {
+    "symbol": "HERITGFOOD",
+    "added_date": "2026-05-26",
+    "avg_buy": 334.35,
+    "qty": 15,
+    "current_ltp": 332.1,
+    "target": 351.07,
+    "status": "No"
   }
 ]
