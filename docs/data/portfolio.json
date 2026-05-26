@@ -376,5 +376,14 @@
     "current_ltp": 507.55,
     "target": 547.82,
     "status": "No"
+  },
+  {
+    "symbol": "MAPMYINDIA",
+    "added_date": "2026-05-26",
+    "avg_buy": 888.06,
+    "qty": 5,
+    "current_ltp": 865.95,
+    "target": 932.46,
+    "status": "No"
   }
 ]
