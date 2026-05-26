@@ -367,5 +367,14 @@
     "current_ltp": 386.45,
     "target": 417.17,
     "status": "No"
+  },
+  {
+    "symbol": "KEC",
+    "added_date": "2026-05-26",
+    "avg_buy": 521.73,
+    "qty": 9,
+    "current_ltp": 507.55,
+    "target": 547.82,
+    "status": "No"
   }
 ]
