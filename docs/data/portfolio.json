@@ -124,5 +124,14 @@
     "current_ltp": 218.76,
     "target": 233.91,
     "status": "No"
+  },
+  {
+    "symbol": "GOPAL",
+    "added_date": "2026-05-26",
+    "avg_buy": 296.25,
+    "qty": 17,
+    "current_ltp": 293,
+    "target": 311.06,
+    "status": "No"
   }
 ]
