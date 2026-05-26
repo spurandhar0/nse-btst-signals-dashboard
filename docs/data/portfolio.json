@@ -16,5 +16,14 @@
     "current_ltp": 456.15,
     "target": 508.43,
     "status": "No"
+  },
+  {
+    "symbol": "BDL",
+    "added_date": "2026-05-26",
+    "avg_buy": 1334.2,
+    "qty": 3,
+    "current_ltp": 1326.1,
+    "target": 1400.91,
+    "status": "No"
   }
 ]
