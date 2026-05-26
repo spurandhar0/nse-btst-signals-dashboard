@@ -655,5 +655,14 @@
     "current_ltp": 177.81,
     "target": 187.62,
     "status": "No"
+  },
+  {
+    "symbol": "BLUESTONE",
+    "added_date": "2026-05-26",
+    "avg_buy": 486.34,
+    "qty": 10,
+    "current_ltp": 484.45,
+    "target": 510.66,
+    "status": "No"
   }
 ]
