@@ -241,5 +241,14 @@
     "current_ltp": 523.8,
     "target": 553.77,
     "status": "No"
+  },
+  {
+    "symbol": "WHIRLPOOL",
+    "added_date": "2026-05-26",
+    "avg_buy": 910,
+    "qty": 5,
+    "current_ltp": 855.1,
+    "target": 955.5,
+    "status": "No"
   }
 ]
