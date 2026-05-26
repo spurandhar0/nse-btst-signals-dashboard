@@ -484,5 +484,14 @@
     "current_ltp": 226.85,
     "target": 242.51,
     "status": "No"
+  },
+  {
+    "symbol": "INDOCO",
+    "added_date": "2026-05-26",
+    "avg_buy": 199.08,
+    "qty": 25,
+    "current_ltp": 195.74,
+    "target": 209.03,
+    "status": "No"
   }
 ]
