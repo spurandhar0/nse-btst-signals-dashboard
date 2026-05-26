@@ -709,5 +709,14 @@
     "current_ltp": 467,
     "target": 491.09,
     "status": "No"
+  },
+  {
+    "symbol": "GMMPFAUDLR",
+    "added_date": "2026-05-26",
+    "avg_buy": 807.1,
+    "qty": 6,
+    "current_ltp": 806,
+    "target": 847.46,
+    "status": "No"
   }
 ]
