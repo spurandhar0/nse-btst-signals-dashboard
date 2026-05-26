@@ -556,5 +556,14 @@
     "current_ltp": 150.96,
     "target": 160.34,
     "status": "No"
+  },
+  {
+    "symbol": "TRF",
+    "added_date": "2026-05-26",
+    "avg_buy": 245.3,
+    "qty": 20,
+    "current_ltp": 243.15,
+    "target": 257.56,
+    "status": "No"
   }
 ]
