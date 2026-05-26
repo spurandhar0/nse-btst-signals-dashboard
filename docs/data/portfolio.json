@@ -25,5 +25,14 @@
     "current_ltp": 1326.1,
     "target": 1400.91,
     "status": "No"
+  },
+  {
+    "symbol": "CANTABIL",
+    "added_date": "2026-05-26",
+    "avg_buy": 218.77,
+    "qty": 22,
+    "current_ltp": 218.25,
+    "target": 229.71,
+    "status": "No"
   }
 ]
