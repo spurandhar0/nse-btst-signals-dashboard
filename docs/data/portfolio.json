@@ -601,5 +601,14 @@
     "current_ltp": 438.75,
     "target": 464.26,
     "status": "No"
+  },
+  {
+    "symbol": "SUNTECK",
+    "added_date": "2026-05-26",
+    "avg_buy": 305.83,
+    "qty": 16,
+    "current_ltp": 303.65,
+    "target": 321.12,
+    "status": "No"
   }
 ]
