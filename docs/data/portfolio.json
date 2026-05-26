@@ -412,5 +412,14 @@
     "current_ltp": 1016.5,
     "target": 1093.68,
     "status": "No"
+  },
+  {
+    "symbol": "NAVA",
+    "added_date": "2026-05-26",
+    "avg_buy": 628.5,
+    "qty": 8,
+    "current_ltp": 613.9,
+    "target": 659.93,
+    "status": "No"
   }
 ]
