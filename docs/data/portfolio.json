@@ -547,5 +547,14 @@
     "current_ltp": 272.45,
     "target": 289.82,
     "status": "No"
+  },
+  {
+    "symbol": "NCC",
+    "added_date": "2026-05-26",
+    "avg_buy": 152.7,
+    "qty": 33,
+    "current_ltp": 150.96,
+    "target": 160.34,
+    "status": "No"
   }
 ]
