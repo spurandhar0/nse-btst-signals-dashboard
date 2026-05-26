@@ -493,5 +493,14 @@
     "current_ltp": 195.74,
     "target": 209.03,
     "status": "No"
+  },
+  {
+    "symbol": "BFINVEST",
+    "added_date": "2026-05-26",
+    "avg_buy": 401.49,
+    "qty": 12,
+    "current_ltp": 394.8,
+    "target": 421.56,
+    "status": "No"
   }
 ]
