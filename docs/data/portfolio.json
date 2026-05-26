@@ -70,5 +70,14 @@
     "current_ltp": 219.25,
     "target": 270.29,
     "status": "No"
+  },
+  {
+    "symbol": "SUNTV",
+    "added_date": "2026-05-26",
+    "avg_buy": 532.95,
+    "qty": 10,
+    "current_ltp": 494.3,
+    "target": 559.6,
+    "status": "No"
   }
 ]
