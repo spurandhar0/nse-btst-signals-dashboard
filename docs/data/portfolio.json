@@ -268,5 +268,14 @@
     "current_ltp": 330.8,
     "target": 365.97,
     "status": "No"
+  },
+  {
+    "symbol": "OSWALPUMPS",
+    "added_date": "2026-05-26",
+    "avg_buy": 377.9,
+    "qty": 13,
+    "current_ltp": 360.6,
+    "target": 396.8,
+    "status": "No"
   }
 ]
