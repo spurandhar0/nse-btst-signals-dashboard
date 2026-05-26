@@ -277,5 +277,14 @@
     "current_ltp": 360.6,
     "target": 396.8,
     "status": "No"
+  },
+  {
+    "symbol": "ABCOTS",
+    "added_date": "2026-05-26",
+    "avg_buy": 225.84,
+    "qty": 23,
+    "current_ltp": 216.83,
+    "target": 237.13,
+    "status": "No"
   }
 ]
