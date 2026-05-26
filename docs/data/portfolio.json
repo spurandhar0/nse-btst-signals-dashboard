@@ -628,5 +628,14 @@
     "current_ltp": 511.15,
     "target": 540.32,
     "status": "No"
+  },
+  {
+    "symbol": "SCODATUBES",
+    "added_date": "2026-05-26",
+    "avg_buy": 139.4,
+    "qty": 36,
+    "current_ltp": 138.5,
+    "target": 146.37,
+    "status": "No"
   }
 ]
