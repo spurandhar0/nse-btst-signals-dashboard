@@ -439,5 +439,14 @@
     "current_ltp": 471.25,
     "target": 506.38,
     "status": "No"
+  },
+  {
+    "symbol": "PUNJABCHEM",
+    "added_date": "2026-05-26",
+    "avg_buy": 1046.8,
+    "qty": 4,
+    "current_ltp": 1026,
+    "target": 1099.14,
+    "status": "No"
   }
 ]
