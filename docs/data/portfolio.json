@@ -529,5 +529,14 @@
     "current_ltp": 669.55,
     "target": 712.54,
     "status": "No"
+  },
+  {
+    "symbol": "UNICHEMLAB",
+    "added_date": "2026-05-26",
+    "avg_buy": 364.25,
+    "qty": 13,
+    "current_ltp": 359.5,
+    "target": 382.46,
+    "status": "No"
   }
 ]
