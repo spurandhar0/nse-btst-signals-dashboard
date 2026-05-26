@@ -295,5 +295,14 @@
     "current_ltp": 4886,
     "target": 5337.37,
     "status": "No"
+  },
+  {
+    "symbol": "TCS",
+    "added_date": "2026-05-26",
+    "avg_buy": 2396.9,
+    "qty": 2,
+    "current_ltp": 2308.2,
+    "target": 2516.75,
+    "status": "No"
   }
 ]
