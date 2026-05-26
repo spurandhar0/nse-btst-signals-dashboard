@@ -250,5 +250,14 @@
     "current_ltp": 855.1,
     "target": 955.5,
     "status": "No"
+  },
+  {
+    "symbol": "COCHINSHIP",
+    "added_date": "2026-05-26",
+    "avg_buy": 1616.1,
+    "qty": 3,
+    "current_ltp": 1529,
+    "target": 1696.9,
+    "status": "No"
   }
 ]
