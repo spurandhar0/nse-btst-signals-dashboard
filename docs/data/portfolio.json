@@ -187,5 +187,14 @@
     "current_ltp": 250.05,
     "target": 269.78,
     "status": "No"
+  },
+  {
+    "symbol": "VIKRAMSOLR",
+    "added_date": "2026-05-26",
+    "avg_buy": 205.77,
+    "qty": 24,
+    "current_ltp": 200.63,
+    "target": 216.06,
+    "status": "No"
   }
 ]
