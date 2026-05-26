@@ -430,5 +430,14 @@
     "current_ltp": 829.4,
     "target": 891.42,
     "status": "No"
+  },
+  {
+    "symbol": "PGEL",
+    "added_date": "2026-05-26",
+    "avg_buy": 482.27,
+    "qty": 10,
+    "current_ltp": 471.25,
+    "target": 506.38,
+    "status": "No"
   }
 ]
