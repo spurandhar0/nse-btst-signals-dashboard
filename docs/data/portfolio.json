@@ -385,5 +385,14 @@
     "current_ltp": 865.95,
     "target": 932.46,
     "status": "No"
+  },
+  {
+    "symbol": "INDRAMEDCO",
+    "added_date": "2026-05-26",
+    "avg_buy": 372.79,
+    "qty": 13,
+    "current_ltp": 363.65,
+    "target": 391.43,
+    "status": "No"
   }
 ]
