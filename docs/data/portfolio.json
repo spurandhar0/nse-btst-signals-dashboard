@@ -403,5 +403,14 @@
     "current_ltp": 1168.5,
     "target": 1257.52,
     "status": "No"
+  },
+  {
+    "symbol": "JINDALPHOT",
+    "added_date": "2026-05-26",
+    "avg_buy": 1041.6,
+    "qty": 4,
+    "current_ltp": 1016.5,
+    "target": 1093.68,
+    "status": "No"
   }
 ]
