@@ -133,5 +133,14 @@
     "current_ltp": 293,
     "target": 311.06,
     "status": "No"
+  },
+  {
+    "symbol": "TRANSRAILL",
+    "added_date": "2026-05-26",
+    "avg_buy": 518.3,
+    "qty": 9,
+    "current_ltp": 510.45,
+    "target": 544.22,
+    "status": "No"
   }
 ]
