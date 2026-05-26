@@ -322,5 +322,14 @@
     "current_ltp": 528.05,
     "target": 572.51,
     "status": "No"
+  },
+  {
+    "symbol": "BASF",
+    "added_date": "2026-05-26",
+    "avg_buy": 3623.5,
+    "qty": 1,
+    "current_ltp": 3515,
+    "target": 3804.68,
+    "status": "No"
   }
 ]
