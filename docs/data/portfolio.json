@@ -7,5 +7,14 @@
     "current_ltp": 338.1,
     "target": 374.64,
     "status": "No"
+  },
+  {
+    "symbol": "ARROWGREEN",
+    "added_date": "2026-05-26",
+    "avg_buy": 484.22,
+    "qty": 10,
+    "current_ltp": 456.15,
+    "target": 508.43,
+    "status": "No"
   }
 ]
