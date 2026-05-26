@@ -3499,11 +3499,15 @@ function buildOverview(){
 // ─── MTF OUTPUT ──────────────────────────────────────────────────────────────
 let MTF_SYMS = null;
 
-async function _loadMTFSymbols() {
+async async function _loadMTFSymbols() {
   if (MTF_SYMS !== null) return MTF_SYMS;
   try {
     const r = await fetch('data/mtf_symbols.json');
-    if (r.ok) MTF_SYMS = await r.json();
+    if (r.ok) {
+      const raw = await r.json();
+      // Strip header row if present (e.g. 'Symbol / Scrip Name')
+      MTF_SYMS = raw.filter(s => s && !s.toLowerCase().includes('scrip name') && !s.toLowerCase().includes('symbol /'));
+    }
   } catch(e) { console.warn('MTF load failed', e); }
   return MTF_SYMS;
 }
@@ -3513,30 +3517,36 @@ async function renderMTFOutput() {
   body.innerHTML = '<tr><td colspan="12" class="empty">Loading MTF symbols…</td></tr>';
 
   const syms = await _loadMTFSymbols();
-  if (!syms) {
+  if (!syms || !syms.length) {
     body.innerHTML = '<tr><td colspan="12" class="empty">⚠ Failed to load MTF symbols (data/mtf_symbols.json missing)</td></tr>';
     return;
   }
-  const mtfSet = new Set(syms.map(s => s.toUpperCase()));
+  // Filter 2: MTF list (header already stripped)
+  const mtfSet = new Set(syms.map(s => s.trim().toUpperCase()));
 
-  // FE symbols: open positions using >= 60% of max duration
+  // Filter 3: FE tab symbols — open positions using >= 60% of max duration
   const cfgDurMap = {};
   CONFIGS_DEF.forEach(c => { cfgDurMap[c.id||c.ID] = parseInt(c.max_duration||c.MAXDURA||90); });
   const feSyms = new Set();
   ALL_ROWS.filter(r => r.ORDER==='Executed' && r.STATUS==='Open').forEach(r => {
     const maxD = cfgDurMap[r.CONFIG] || 90;
-    if ((parseInt(r.MARKET_DAYS)||0) >= maxD * 0.6) feSyms.add(r.SYMBOL);
+    if ((parseInt(r.MARKET_DAYS)||0) >= maxD * 0.6) feSyms.add((r.SYMBOL||'').toUpperCase());
   });
 
-  // Portfolio map: symbol -> status
-  const portArr = getPortfolio();
-  const portMap = {};
-  portArr.forEach(p => { portMap[(p.symbol||'').toUpperCase()] = p.status; });
+  // Portfolio: only apply if portfolio has entries (empty portfolio = skip filter)
+  const portArr = getPortfolio ? (getPortfolio() || []) : [];
+  const portHasData = portArr.length > 0;
+  const portExclude = new Set();
+  if (portHasData) {
+    portArr.forEach(p => {
+      if ((p.status||'') === 'No') portExclude.add((p.symbol||'').toUpperCase());
+    });
+  }
 
-  // Aggregate open: symbol -> row with lowest avg_buy_price
+  // Aggregate open positions: symbol -> row with lowest avg_buy_price (deduplicate)
   const symMap = {};
   ALL_ROWS.filter(r => r.ORDER==='Executed' && r.STATUS==='Open').forEach(r => {
-    const sym = r.SYMBOL.toUpperCase();
+    const sym = (r.SYMBOL||'').toUpperCase();
     const avg = parseFloat(r.AVG_BUY_PRICE) || 0;
     if (!symMap[sym] || avg < symMap[sym].avg) symMap[sym] = { r, avg };
   });
@@ -3545,27 +3555,33 @@ async function renderMTFOutput() {
   const inp = document.getElementById('mtf-inv-input');
   if (inp) inp.value = inv;
 
+  // Apply all 4 filters
   let filtered = Object.values(symMap).filter(function(item) {
-    const sym = item.r.SYMBOL.toUpperCase();
+    const sym = (item.r.SYMBOL||'').toUpperCase();
     const ltp = parseFloat(item.r.CURRENT_LTP) || 0;
     const avg = item.avg;
-    if (!mtfSet.has(sym)) return false;
+    // Filter 1: LTP < Avg Buy (open position underwater)
     if (avg === 0 || ltp >= avg) return false;
-    if (ltp < 110) return false;  // hide LTP < ₹110
-    if (feSyms.has(item.r.SYMBOL)) return false;
-    if (portMap[sym] === 'No') return false;  // active portfolio holding
+    // Filter 2: Must be in MTF list
+    if (!mtfSet.has(sym)) return false;
+    // Filter 3: Exclude symbols in FE tab
+    if (feSyms.has(sym)) return false;
+    // Filter 4: Hide LTP < ₹100
+    if (ltp < 100) return false;
+    // Portfolio: skip if portfolio empty; otherwise exclude marked symbols
+    if (portHasData && portExclude.has(sym)) return false;
     return true;
   });
 
-  // Sort: signal date descending
+  // Sort: most dropped first (biggest drop% at top)
   filtered.sort(function(a, b) {
-    return (b.r.SIGNAL_DATE||'').localeCompare(a.r.SIGNAL_DATE||'');
+    const dropA = a.avg > 0 ? (parseFloat(a.r.CURRENT_LTP||0) - a.avg) / a.avg : 0;
+    const dropB = b.avg > 0 ? (parseFloat(b.r.CURRENT_LTP||0) - b.avg) / b.avg : 0;
+    return dropA - dropB; // most negative first
   });
 
-  document.getElementById('mtf-info').textContent =
-    filtered.length + ' symbol(s) matched (MTF eligible · LTP < avg buy · no FE · no active holding)';
-
   if (!filtered.length) {
+    document.getElementById('mtf-info').textContent = '0 MTF opportunities';
     body.innerHTML = '<tr><td colspan="12" class="empty">No MTF matches right now</td></tr>';
     return;
   }
@@ -3577,7 +3593,7 @@ async function renderMTFOutput() {
   const pageFiltered=filtered.slice(start,start+pgSz);
   setPager('mtf',page,filtered.length,pgSz);
 
-  document.getElementById('mtf-info').textContent=`${filtered.length} MTF opportunities`;
+  document.getElementById('mtf-info').textContent=`${filtered.length} MTF opportunities (F1: LTP<AvgBuy · F2: MTF list · F3: excl. FE · F4: LTP≥₹100)`;
 
   if(!pageFiltered.length){
     body.innerHTML='<tr><td colspan="12" class="empty">No MTF opportunities right now</td></tr>';
