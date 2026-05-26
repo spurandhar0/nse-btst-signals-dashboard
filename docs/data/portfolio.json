@@ -151,5 +151,14 @@
     "current_ltp": 267.4,
     "target": 286.33,
     "status": "No"
+  },
+  {
+    "symbol": "PVRINOX",
+    "added_date": "2026-05-26",
+    "avg_buy": 1026,
+    "qty": 5,
+    "current_ltp": 981.4,
+    "target": 1077.3,
+    "status": "No"
   }
 ]
