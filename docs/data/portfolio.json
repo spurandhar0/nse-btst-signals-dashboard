@@ -448,5 +448,14 @@
     "current_ltp": 1026,
     "target": 1099.14,
     "status": "No"
+  },
+  {
+    "symbol": "KALYANKJIL",
+    "added_date": "2026-05-26",
+    "avg_buy": 364.85,
+    "qty": 13,
+    "current_ltp": 357.85,
+    "target": 383.09,
+    "status": "No"
   }
 ]
