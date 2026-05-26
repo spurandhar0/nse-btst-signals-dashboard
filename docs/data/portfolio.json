@@ -565,5 +565,14 @@
     "current_ltp": 243.15,
     "target": 257.56,
     "status": "No"
+  },
+  {
+    "symbol": "JKLAKSHMI",
+    "added_date": "2026-05-26",
+    "avg_buy": 619.8,
+    "qty": 8,
+    "current_ltp": 614.6,
+    "target": 650.79,
+    "status": "No"
   }
 ]
