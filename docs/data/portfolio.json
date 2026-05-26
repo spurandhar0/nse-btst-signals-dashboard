@@ -538,5 +538,14 @@
     "current_ltp": 359.5,
     "target": 382.46,
     "status": "No"
+  },
+  {
+    "symbol": "RVNL",
+    "added_date": "2026-05-26",
+    "avg_buy": 276.02,
+    "qty": 18,
+    "current_ltp": 272.45,
+    "target": 289.82,
+    "status": "No"
   }
 ]
