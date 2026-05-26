@@ -673,5 +673,14 @@
     "current_ltp": 102.66,
     "target": 108.21,
     "status": "No"
+  },
+  {
+    "symbol": "DPABHUSHAN",
+    "added_date": "2026-05-26",
+    "avg_buy": 978.16,
+    "qty": 5,
+    "current_ltp": 974.8,
+    "target": 1027.07,
+    "status": "No"
   }
 ]
