@@ -466,5 +466,14 @@
     "current_ltp": 221.93,
     "target": 237.51,
     "status": "No"
+  },
+  {
+    "symbol": "IKIO",
+    "added_date": "2026-05-26",
+    "avg_buy": 157.32,
+    "qty": 32,
+    "current_ltp": 154.42,
+    "target": 165.19,
+    "status": "No"
   }
 ]
