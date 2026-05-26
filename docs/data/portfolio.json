@@ -700,5 +700,14 @@
     "current_ltp": 127.63,
     "target": 134.24,
     "status": "No"
+  },
+  {
+    "symbol": "WESTLIFE",
+    "added_date": "2026-05-26",
+    "avg_buy": 467.7,
+    "qty": 10,
+    "current_ltp": 467,
+    "target": 491.09,
+    "status": "No"
   }
 ]
