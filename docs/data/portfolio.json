@@ -106,5 +106,14 @@
     "current_ltp": 404.05,
     "target": 442.43,
     "status": "No"
+  },
+  {
+    "symbol": "GHCL",
+    "added_date": "2026-05-26",
+    "avg_buy": 469.65,
+    "qty": 11,
+    "current_ltp": 443.3,
+    "target": 493.13,
+    "status": "No"
   }
 ]
