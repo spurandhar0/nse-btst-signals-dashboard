@@ -142,5 +142,14 @@
     "current_ltp": 510.45,
     "target": 544.22,
     "status": "No"
+  },
+  {
+    "symbol": "RSYSTEMS",
+    "added_date": "2026-05-26",
+    "avg_buy": 272.7,
+    "qty": 18,
+    "current_ltp": 267.4,
+    "target": 286.33,
+    "status": "No"
   }
 ]
