@@ -160,5 +160,14 @@
     "current_ltp": 981.4,
     "target": 1077.3,
     "status": "No"
+  },
+  {
+    "symbol": "HCLTECH",
+    "added_date": "2026-05-26",
+    "avg_buy": 1216.75,
+    "qty": 4,
+    "current_ltp": 1165.7,
+    "target": 1277.59,
+    "status": "No"
   }
 ]
