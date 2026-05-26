@@ -259,5 +259,14 @@
     "current_ltp": 1529,
     "target": 1696.9,
     "status": "No"
+  },
+  {
+    "symbol": "BSOFT",
+    "added_date": "2026-05-26",
+    "avg_buy": 348.54,
+    "qty": 15,
+    "current_ltp": 330.8,
+    "target": 365.97,
+    "status": "No"
   }
 ]
