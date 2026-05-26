@@ -358,5 +358,14 @@
     "current_ltp": 745.45,
     "target": 804.98,
     "status": "No"
+  },
+  {
+    "symbol": "JKTYRE",
+    "added_date": "2026-05-26",
+    "avg_buy": 397.3,
+    "qty": 12,
+    "current_ltp": 386.45,
+    "target": 417.17,
+    "status": "No"
   }
 ]
