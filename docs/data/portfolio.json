@@ -178,5 +178,14 @@
     "current_ltp": 189.67,
     "target": 207.14,
     "status": "No"
+  },
+  {
+    "symbol": "SWIGGY",
+    "added_date": "2026-05-26",
+    "avg_buy": 256.93,
+    "qty": 19,
+    "current_ltp": 250.05,
+    "target": 269.78,
+    "status": "No"
   }
 ]
