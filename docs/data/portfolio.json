@@ -232,5 +232,14 @@
     "current_ltp": 481.3,
     "target": 511.04,
     "status": "No"
+  },
+  {
+    "symbol": "JUSTDIAL",
+    "added_date": "2026-05-26",
+    "avg_buy": 527.4,
+    "qty": 9,
+    "current_ltp": 523.8,
+    "target": 553.77,
+    "status": "No"
   }
 ]
