@@ -583,5 +583,14 @@
     "current_ltp": 1011.3,
     "target": 1070.27,
     "status": "No"
+  },
+  {
+    "symbol": "NOCIL",
+    "added_date": "2026-05-26",
+    "avg_buy": 167.05,
+    "qty": 30,
+    "current_ltp": 165.74,
+    "target": 175.4,
+    "status": "No"
   }
 ]
