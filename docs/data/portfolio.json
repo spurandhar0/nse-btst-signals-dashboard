@@ -61,5 +61,14 @@
     "current_ltp": 203.15,
     "target": 235.42,
     "status": "No"
+  },
+  {
+    "symbol": "NIITMTS",
+    "added_date": "2026-05-26",
+    "avg_buy": 257.42,
+    "qty": 22,
+    "current_ltp": 219.25,
+    "target": 270.29,
+    "status": "No"
   }
 ]
