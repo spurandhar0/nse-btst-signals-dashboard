@@ -331,5 +331,14 @@
     "current_ltp": 3515,
     "target": 3804.68,
     "status": "No"
+  },
+  {
+    "symbol": "ZENSARTECH",
+    "added_date": "2026-05-26",
+    "avg_buy": 507.79,
+    "qty": 10,
+    "current_ltp": 493.05,
+    "target": 533.18,
+    "status": "No"
   }
 ]
