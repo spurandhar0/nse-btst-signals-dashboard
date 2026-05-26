@@ -34,5 +34,14 @@
     "current_ltp": 218.25,
     "target": 229.71,
     "status": "No"
+  },
+  {
+    "symbol": "CELLO",
+    "added_date": "2026-05-26",
+    "avg_buy": 387.15,
+    "qty": 13,
+    "current_ltp": 380.5,
+    "target": 406.51,
+    "status": "No"
   }
 ]
