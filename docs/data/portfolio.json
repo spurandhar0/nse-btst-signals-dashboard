@@ -475,5 +475,14 @@
     "current_ltp": 154.42,
     "target": 165.19,
     "status": "No"
+  },
+  {
+    "symbol": "BOROLTD",
+    "added_date": "2026-05-26",
+    "avg_buy": 230.96,
+    "qty": 22,
+    "current_ltp": 226.85,
+    "target": 242.51,
+    "status": "No"
   }
 ]
