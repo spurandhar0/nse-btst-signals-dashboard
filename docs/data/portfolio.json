@@ -421,5 +421,14 @@
     "current_ltp": 613.9,
     "target": 659.93,
     "status": "No"
+  },
+  {
+    "symbol": "KFINTECH",
+    "added_date": "2026-05-26",
+    "avg_buy": 848.97,
+    "qty": 6,
+    "current_ltp": 829.4,
+    "target": 891.42,
+    "status": "No"
   }
 ]
