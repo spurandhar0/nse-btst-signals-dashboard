@@ -169,5 +169,14 @@
     "current_ltp": 1165.7,
     "target": 1277.59,
     "status": "No"
+  },
+  {
+    "symbol": "HERANBA",
+    "added_date": "2026-05-26",
+    "avg_buy": 197.28,
+    "qty": 26,
+    "current_ltp": 189.67,
+    "target": 207.14,
+    "status": "No"
   }
 ]
