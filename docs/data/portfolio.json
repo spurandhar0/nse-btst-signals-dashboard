@@ -79,5 +79,14 @@
     "current_ltp": 494.3,
     "target": 559.6,
     "status": "No"
+  },
+  {
+    "symbol": "DPWIRES",
+    "added_date": "2026-05-26",
+    "avg_buy": 173.03,
+    "qty": 29,
+    "current_ltp": 172.24,
+    "target": 181.68,
+    "status": "No"
   }
 ]
