@@ -196,5 +196,14 @@
     "current_ltp": 200.63,
     "target": 216.06,
     "status": "No"
+  },
+  {
+    "symbol": "NPST",
+    "added_date": "2026-05-26",
+    "avg_buy": 1068.76,
+    "qty": 4,
+    "current_ltp": 1031.2,
+    "target": 1122.2,
+    "status": "No"
   }
 ]
