@@ -88,5 +88,14 @@
     "current_ltp": 172.24,
     "target": 181.68,
     "status": "No"
+  },
+  {
+    "symbol": "EPACKPEB",
+    "added_date": "2026-05-26",
+    "avg_buy": 191.58,
+    "qty": 26,
+    "current_ltp": 191.3,
+    "target": 201.16,
+    "status": "No"
   }
 ]
