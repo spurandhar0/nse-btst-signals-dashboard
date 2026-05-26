@@ -664,5 +664,14 @@
     "current_ltp": 484.45,
     "target": 510.66,
     "status": "No"
+  },
+  {
+    "symbol": "KALAMANDIR",
+    "added_date": "2026-05-26",
+    "avg_buy": 103.06,
+    "qty": 48,
+    "current_ltp": 102.66,
+    "target": 108.21,
+    "status": "No"
   }
 ]
