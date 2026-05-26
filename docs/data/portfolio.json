@@ -304,5 +304,14 @@
     "current_ltp": 2308.2,
     "target": 2516.75,
     "status": "No"
+  },
+  {
+    "symbol": "MVGJL",
+    "added_date": "2026-05-26",
+    "avg_buy": 157.18,
+    "qty": 32,
+    "current_ltp": 152.2,
+    "target": 165.04,
+    "status": "No"
   }
 ]
