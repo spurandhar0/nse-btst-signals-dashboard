@@ -223,5 +223,14 @@
     "current_ltp": 197.2,
     "target": 210.15,
     "status": "No"
+  },
+  {
+    "symbol": "WONDERLA",
+    "added_date": "2026-05-26",
+    "avg_buy": 486.7,
+    "qty": 10,
+    "current_ltp": 481.3,
+    "target": 511.04,
+    "status": "No"
   }
 ]
