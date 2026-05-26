@@ -646,5 +646,14 @@
     "current_ltp": 721.95,
     "target": 762.56,
     "status": "No"
+  },
+  {
+    "symbol": "INOXGREEN",
+    "added_date": "2026-05-26",
+    "avg_buy": 178.69,
+    "qty": 28,
+    "current_ltp": 177.81,
+    "target": 187.62,
+    "status": "No"
   }
 ]
