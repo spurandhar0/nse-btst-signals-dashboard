@@ -511,5 +511,14 @@
     "current_ltp": 537.45,
     "target": 573.77,
     "status": "No"
+  },
+  {
+    "symbol": "JYOTICNC",
+    "added_date": "2026-05-26",
+    "avg_buy": 681.65,
+    "qty": 7,
+    "current_ltp": 670.7,
+    "target": 715.73,
+    "status": "No"
   }
 ]
