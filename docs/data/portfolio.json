@@ -340,5 +340,14 @@
     "current_ltp": 493.05,
     "target": 533.18,
     "status": "No"
+  },
+  {
+    "symbol": "63MOONS",
+    "added_date": "2026-05-26",
+    "avg_buy": 662.1,
+    "qty": 7,
+    "current_ltp": 643.35,
+    "target": 695.21,
+    "status": "No"
   }
 ]
