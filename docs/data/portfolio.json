@@ -691,5 +691,14 @@
     "current_ltp": 272.3,
     "target": 286.51,
     "status": "No"
+  },
+  {
+    "symbol": "RELTD",
+    "added_date": "2026-05-26",
+    "avg_buy": 127.85,
+    "qty": 39,
+    "current_ltp": 127.63,
+    "target": 134.24,
+    "status": "No"
   }
 ]
