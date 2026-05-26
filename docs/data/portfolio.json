@@ -682,5 +682,14 @@
     "current_ltp": 974.8,
     "target": 1027.07,
     "status": "No"
+  },
+  {
+    "symbol": "DOLLAR",
+    "added_date": "2026-05-26",
+    "avg_buy": 272.87,
+    "qty": 18,
+    "current_ltp": 272.3,
+    "target": 286.51,
+    "status": "No"
   }
 ]
