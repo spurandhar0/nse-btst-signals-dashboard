@@ -637,5 +637,14 @@
     "current_ltp": 138.5,
     "target": 146.37,
     "status": "No"
+  },
+  {
+    "symbol": "SYMPHONY",
+    "added_date": "2026-05-26",
+    "avg_buy": 726.25,
+    "qty": 6,
+    "current_ltp": 721.95,
+    "target": 762.56,
+    "status": "No"
   }
 ]
