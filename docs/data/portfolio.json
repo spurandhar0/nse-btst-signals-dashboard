@@ -313,5 +313,14 @@
     "current_ltp": 152.2,
     "target": 165.04,
     "status": "No"
+  },
+  {
+    "symbol": "PNGJL",
+    "added_date": "2026-05-26",
+    "avg_buy": 545.25,
+    "qty": 9,
+    "current_ltp": 528.05,
+    "target": 572.51,
+    "status": "No"
   }
 ]
