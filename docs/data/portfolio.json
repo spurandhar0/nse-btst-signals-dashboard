@@ -574,5 +574,14 @@
     "current_ltp": 614.6,
     "target": 650.79,
     "status": "No"
+  },
+  {
+    "symbol": "INDIAGLYCO",
+    "added_date": "2026-05-26",
+    "avg_buy": 1019.3,
+    "qty": 4,
+    "current_ltp": 1011.3,
+    "target": 1070.27,
+    "status": "No"
   }
 ]
