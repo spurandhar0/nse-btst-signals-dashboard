@@ -727,5 +727,14 @@
     "current_ltp": 812.75,
     "target": 894.8,
     "status": "No"
+  },
+  {
+    "symbol": "BLS",
+    "added_date": "2026-05-27",
+    "avg_buy": 267.65,
+    "qty": 18,
+    "current_ltp": 265.35,
+    "target": 294.42,
+    "status": "No"
   }
 ]
