@@ -763,5 +763,14 @@
     "current_ltp": 1242.5,
     "target": 1382.48,
     "status": "No"
+  },
+  {
+    "symbol": "DENTA",
+    "added_date": "2026-05-27",
+    "avg_buy": 267.85,
+    "qty": 19,
+    "current_ltp": 257.85,
+    "target": 294.64,
+    "status": "No"
   }
 ]
