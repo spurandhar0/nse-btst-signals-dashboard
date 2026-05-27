@@ -754,5 +754,14 @@
     "current_ltp": 1439.8,
     "target": 1673.1,
     "status": "No"
+  },
+  {
+    "symbol": "MIDWESTLTD",
+    "added_date": "2026-05-27",
+    "avg_buy": 1256.8,
+    "qty": 4,
+    "current_ltp": 1242.5,
+    "target": 1382.48,
+    "status": "No"
   }
 ]
