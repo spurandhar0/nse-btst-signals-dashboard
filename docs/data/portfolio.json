@@ -736,5 +736,14 @@
     "current_ltp": 265.35,
     "target": 294.42,
     "status": "No"
+  },
+  {
+    "symbol": "SUBROS",
+    "added_date": "2026-05-27",
+    "avg_buy": 734.61,
+    "qty": 6,
+    "current_ltp": 723.8,
+    "target": 808.07,
+    "status": "No"
   }
 ]
