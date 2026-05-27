@@ -781,5 +781,14 @@
     "current_ltp": 222.45,
     "target": 271.87,
     "status": "No"
+  },
+  {
+    "symbol": "PLATIND",
+    "added_date": "2026-05-27",
+    "avg_buy": 225.57,
+    "qty": 22,
+    "current_ltp": 225.43,
+    "target": 248.13,
+    "status": "No"
   }
 ]
