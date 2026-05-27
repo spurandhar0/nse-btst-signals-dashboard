@@ -745,5 +745,14 @@
     "current_ltp": 723.8,
     "target": 808.07,
     "status": "No"
+  },
+  {
+    "symbol": "POLYMED",
+    "added_date": "2026-05-27",
+    "avg_buy": 1521,
+    "qty": 3,
+    "current_ltp": 1439.8,
+    "target": 1673.1,
+    "status": "No"
   }
 ]
