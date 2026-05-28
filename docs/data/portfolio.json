@@ -799,5 +799,14 @@
     "current_ltp": 523.2,
     "target": 587.4,
     "status": "No"
+  },
+  {
+    "symbol": "SUNCLAY",
+    "added_date": "2026-05-28",
+    "avg_buy": 1341.3,
+    "qty": 3,
+    "current_ltp": 1329.4,
+    "target": 1475.43,
+    "status": "No"
   }
 ]
