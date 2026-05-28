@@ -808,5 +808,14 @@
     "current_ltp": 1329.4,
     "target": 1475.43,
     "status": "No"
+  },
+  {
+    "symbol": "CONCOR",
+    "added_date": "2026-05-28",
+    "avg_buy": 475.9,
+    "qty": 10,
+    "current_ltp": 472.3,
+    "target": 523.49,
+    "status": "No"
   }
 ]
