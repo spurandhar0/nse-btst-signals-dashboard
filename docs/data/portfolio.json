@@ -817,5 +817,14 @@
     "current_ltp": 472.3,
     "target": 523.49,
     "status": "No"
+  },
+  {
+    "symbol": "LTTS",
+    "added_date": "2026-05-28",
+    "avg_buy": 3513.61,
+    "qty": 1,
+    "current_ltp": 3491.6,
+    "target": 3864.97,
+    "status": "No"
   }
 ]
