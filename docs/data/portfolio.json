@@ -835,5 +835,14 @@
     "current_ltp": 813.7,
     "target": 911.85,
     "status": "No"
+  },
+  {
+    "symbol": "ANUP",
+    "added_date": "2026-05-29",
+    "avg_buy": 1970.4,
+    "qty": 2,
+    "current_ltp": 1947,
+    "target": 2167.44,
+    "status": "No"
   }
 ]
