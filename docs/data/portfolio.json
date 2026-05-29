@@ -853,5 +853,14 @@
     "current_ltp": 1211.9,
     "target": 1337.19,
     "status": "No"
+  },
+  {
+    "symbol": "HUHTAMAKI",
+    "added_date": "2026-05-29",
+    "avg_buy": 167.51,
+    "qty": 30,
+    "current_ltp": 166.44,
+    "target": 184.26,
+    "status": "No"
   }
 ]
