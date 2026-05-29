@@ -844,5 +844,14 @@
     "current_ltp": 1947,
     "target": 2167.44,
     "status": "No"
+  },
+  {
+    "symbol": "EPIGRAL",
+    "added_date": "2026-05-29",
+    "avg_buy": 1215.63,
+    "qty": 4,
+    "current_ltp": 1211.9,
+    "target": 1337.19,
+    "status": "No"
   }
 ]
