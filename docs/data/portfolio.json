@@ -826,5 +826,14 @@
     "current_ltp": 3491.6,
     "target": 3864.97,
     "status": "No"
+  },
+  {
+    "symbol": "POKARNA",
+    "added_date": "2026-05-29",
+    "avg_buy": 828.95,
+    "qty": 6,
+    "current_ltp": 813.7,
+    "target": 911.85,
+    "status": "No"
   }
 ]
