@@ -862,5 +862,14 @@
     "current_ltp": 166.44,
     "target": 184.26,
     "status": "No"
+  },
+  {
+    "symbol": "IONEXCHANG",
+    "added_date": "2026-05-29",
+    "avg_buy": 383.08,
+    "qty": 13,
+    "current_ltp": 380.1,
+    "target": 421.39,
+    "status": "No"
   }
 ]
