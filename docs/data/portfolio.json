@@ -871,5 +871,14 @@
     "current_ltp": 380.1,
     "target": 421.39,
     "status": "No"
+  },
+  {
+    "symbol": "RKFORGE",
+    "added_date": "2026-05-29",
+    "avg_buy": 567.03,
+    "qty": 8,
+    "current_ltp": 566.1,
+    "target": 623.73,
+    "status": "No"
   }
 ]
