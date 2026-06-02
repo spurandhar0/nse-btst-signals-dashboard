@@ -916,5 +916,14 @@
     "current_ltp": 288.75,
     "target": 325.82,
     "status": "No"
+  },
+  {
+    "symbol": "BAJAJINDEF",
+    "added_date": "2026-06-02",
+    "avg_buy": 252.6,
+    "qty": 20,
+    "current_ltp": 244.15,
+    "target": 277.86,
+    "status": "No"
   }
 ]
