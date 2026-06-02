@@ -934,5 +934,14 @@
     "current_ltp": 905.55,
     "target": 1022.78,
     "status": "No"
+  },
+  {
+    "symbol": "KMEW",
+    "added_date": "2026-06-02",
+    "avg_buy": 1918.3,
+    "qty": 2,
+    "current_ltp": 1734.3,
+    "target": 2110.13,
+    "status": "No"
   }
 ]
