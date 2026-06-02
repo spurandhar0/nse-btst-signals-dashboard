@@ -898,5 +898,14 @@
     "current_ltp": 352.3,
     "target": 417.23,
     "status": "No"
+  },
+  {
+    "symbol": "EMUDHRA",
+    "added_date": "2026-06-02",
+    "avg_buy": 471.2,
+    "qty": 10,
+    "current_ltp": 469.05,
+    "target": 518.32,
+    "status": "No"
   }
 ]
