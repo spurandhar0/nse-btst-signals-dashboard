@@ -943,5 +943,14 @@
     "current_ltp": 1734.3,
     "target": 2110.13,
     "status": "No"
+  },
+  {
+    "symbol": "SCHAND",
+    "added_date": "2026-06-02",
+    "avg_buy": 161.72,
+    "qty": 32,
+    "current_ltp": 155.13,
+    "target": 177.89,
+    "status": "No"
   }
 ]
