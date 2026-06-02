@@ -925,5 +925,14 @@
     "current_ltp": 244.15,
     "target": 277.86,
     "status": "No"
+  },
+  {
+    "symbol": "ISGEC",
+    "added_date": "2026-06-02",
+    "avg_buy": 929.8,
+    "qty": 5,
+    "current_ltp": 905.55,
+    "target": 1022.78,
+    "status": "No"
   }
 ]
