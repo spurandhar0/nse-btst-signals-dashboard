@@ -4,7 +4,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 356.8,
     "qty": 14,
-    "current_ltp": 315.3,
+    "current_ltp": 303.75,
     "target": 374.64,
     "status": "No"
   },
@@ -22,7 +22,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 1334.2,
     "qty": 3,
-    "current_ltp": 1204,
+    "current_ltp": 1212.8,
     "target": 1400.91,
     "status": "No"
   },
@@ -31,7 +31,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 218.77,
     "qty": 22,
-    "current_ltp": 210.83,
+    "current_ltp": 218.22,
     "target": 229.71,
     "status": "No"
   },
@@ -40,7 +40,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 387.15,
     "qty": 13,
-    "current_ltp": 385.1,
+    "current_ltp": 386.1,
     "target": 406.51,
     "status": "No"
   },
@@ -49,7 +49,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 282.9,
     "qty": 17,
-    "current_ltp": 261.2,
+    "current_ltp": 255,
     "target": 297.05,
     "status": "No"
   },
@@ -58,7 +58,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 224.21,
     "qty": 24,
-    "current_ltp": 199.39,
+    "current_ltp": 199.96,
     "target": 235.42,
     "status": "No"
   },
@@ -67,7 +67,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 257.42,
     "qty": 22,
-    "current_ltp": 220.18,
+    "current_ltp": 219.29,
     "target": 270.29,
     "status": "No"
   },
@@ -76,7 +76,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 532.95,
     "qty": 10,
-    "current_ltp": 516.65,
+    "current_ltp": 511.9,
     "target": 559.6,
     "status": "No"
   },
@@ -94,7 +94,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 191.58,
     "qty": 26,
-    "current_ltp": 183.5,
+    "current_ltp": 178.04,
     "target": 201.16,
     "status": "No"
   },
@@ -103,7 +103,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 421.36,
     "qty": 12,
-    "current_ltp": 397.6,
+    "current_ltp": 390.7,
     "target": 442.43,
     "status": "No"
   },
@@ -112,17 +112,8 @@
     "added_date": "2026-05-26",
     "avg_buy": 469.65,
     "qty": 11,
-    "current_ltp": 459.7,
+    "current_ltp": 442.65,
     "target": 493.13,
-    "status": "No"
-  },
-  {
-    "symbol": "GOKULAGRO",
-    "added_date": "2026-05-26",
-    "avg_buy": 222.77,
-    "qty": 22,
-    "current_ltp": 232.95,
-    "target": 233.91,
     "status": "No"
   },
   {
@@ -130,7 +121,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 296.25,
     "qty": 17,
-    "current_ltp": 296.75,
+    "current_ltp": 287.65,
     "target": 311.06,
     "status": "No"
   },
@@ -139,7 +130,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 518.3,
     "qty": 9,
-    "current_ltp": 485.05,
+    "current_ltp": 499.25,
     "target": 544.22,
     "status": "No"
   },
@@ -148,7 +139,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 272.7,
     "qty": 18,
-    "current_ltp": 265.25,
+    "current_ltp": 254.05,
     "target": 286.33,
     "status": "No"
   },
@@ -157,7 +148,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 1026,
     "qty": 5,
-    "current_ltp": 981.65,
+    "current_ltp": 976.35,
     "target": 1077.3,
     "status": "No"
   },
@@ -166,7 +157,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 1216.75,
     "qty": 4,
-    "current_ltp": 1195.1,
+    "current_ltp": 1168.3,
     "target": 1277.59,
     "status": "No"
   },
@@ -175,7 +166,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 197.28,
     "qty": 26,
-    "current_ltp": 178.22,
+    "current_ltp": 172.19,
     "target": 207.14,
     "status": "No"
   },
@@ -184,7 +175,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 256.93,
     "qty": 19,
-    "current_ltp": 249.75,
+    "current_ltp": 253.65,
     "target": 269.78,
     "status": "No"
   },
@@ -193,7 +184,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 205.77,
     "qty": 24,
-    "current_ltp": 196.79,
+    "current_ltp": 214.54,
     "target": 216.06,
     "status": "No"
   },
@@ -211,7 +202,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 687.66,
     "qty": 7,
-    "current_ltp": 676.95,
+    "current_ltp": 684.95,
     "target": 722.04,
     "status": "No"
   },
@@ -220,7 +211,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 200.14,
     "qty": 25,
-    "current_ltp": 194.51,
+    "current_ltp": 201.21,
     "target": 210.15,
     "status": "No"
   },
@@ -229,7 +220,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 486.7,
     "qty": 10,
-    "current_ltp": 474.25,
+    "current_ltp": 474.7,
     "target": 511.04,
     "status": "No"
   },
@@ -238,7 +229,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 527.4,
     "qty": 9,
-    "current_ltp": 521.8,
+    "current_ltp": 525.8,
     "target": 553.77,
     "status": "No"
   },
@@ -247,7 +238,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 910,
     "qty": 5,
-    "current_ltp": 830.8,
+    "current_ltp": 808.65,
     "target": 955.5,
     "status": "No"
   },
@@ -256,7 +247,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 1616.1,
     "qty": 3,
-    "current_ltp": 1429.4,
+    "current_ltp": 1472.4,
     "target": 1696.9,
     "status": "No"
   },
@@ -265,7 +256,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 348.54,
     "qty": 15,
-    "current_ltp": 327.8,
+    "current_ltp": 325.1,
     "target": 365.97,
     "status": "No"
   },
@@ -274,16 +265,16 @@
     "added_date": "2026-05-26",
     "avg_buy": 377.9,
     "qty": 13,
-    "current_ltp": 356.4,
+    "current_ltp": 398.35,
     "target": 396.8,
-    "status": "No"
+    "status": "Yes"
   },
   {
     "symbol": "ABCOTS",
     "added_date": "2026-05-26",
     "avg_buy": 225.84,
     "qty": 23,
-    "current_ltp": 217.29,
+    "current_ltp": 204.67,
     "target": 237.13,
     "status": "No"
   },
@@ -292,7 +283,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 5083.21,
     "qty": 1,
-    "current_ltp": 4720.5,
+    "current_ltp": 4719.6,
     "target": 5337.37,
     "status": "No"
   },
@@ -301,7 +292,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 2396.9,
     "qty": 2,
-    "current_ltp": 2297.4,
+    "current_ltp": 2241,
     "target": 2516.75,
     "status": "No"
   },
@@ -310,7 +301,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 157.18,
     "qty": 32,
-    "current_ltp": 156.21,
+    "current_ltp": 153.83,
     "target": 165.04,
     "status": "No"
   },
@@ -319,7 +310,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 545.25,
     "qty": 9,
-    "current_ltp": 551.7,
+    "current_ltp": 549.4,
     "target": 572.51,
     "status": "No"
   },
@@ -328,7 +319,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 3623.5,
     "qty": 1,
-    "current_ltp": 3330.2,
+    "current_ltp": 3443.7,
     "target": 3804.68,
     "status": "No"
   },
@@ -337,7 +328,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 507.79,
     "qty": 10,
-    "current_ltp": 495.45,
+    "current_ltp": 481.55,
     "target": 533.18,
     "status": "No"
   },
@@ -346,7 +337,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 662.1,
     "qty": 7,
-    "current_ltp": 612.7,
+    "current_ltp": 620.5,
     "target": 695.21,
     "status": "No"
   },
@@ -355,7 +346,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 766.65,
     "qty": 6,
-    "current_ltp": 787.6,
+    "current_ltp": 788.7,
     "target": 804.98,
     "status": "No"
   },
@@ -364,7 +355,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 397.3,
     "qty": 12,
-    "current_ltp": 387,
+    "current_ltp": 385.55,
     "target": 417.17,
     "status": "No"
   },
@@ -373,7 +364,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 521.73,
     "qty": 9,
-    "current_ltp": 498,
+    "current_ltp": 506.4,
     "target": 547.82,
     "status": "No"
   },
@@ -382,7 +373,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 888.06,
     "qty": 5,
-    "current_ltp": 840.5,
+    "current_ltp": 831.8,
     "target": 932.46,
     "status": "No"
   },
@@ -391,16 +382,16 @@
     "added_date": "2026-05-26",
     "avg_buy": 372.79,
     "qty": 13,
-    "current_ltp": 374.15,
+    "current_ltp": 402.15,
     "target": 391.43,
-    "status": "No"
+    "status": "Yes"
   },
   {
     "symbol": "INFY",
     "added_date": "2026-05-26",
     "avg_buy": 1197.64,
     "qty": 4,
-    "current_ltp": 1202.5,
+    "current_ltp": 1201.3,
     "target": 1257.52,
     "status": "No"
   },
@@ -409,7 +400,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 1041.6,
     "qty": 4,
-    "current_ltp": 998,
+    "current_ltp": 994.6,
     "target": 1093.68,
     "status": "No"
   },
@@ -418,7 +409,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 628.5,
     "qty": 8,
-    "current_ltp": 597.5,
+    "current_ltp": 603.05,
     "target": 659.93,
     "status": "No"
   },
@@ -427,7 +418,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 848.97,
     "qty": 6,
-    "current_ltp": 845.55,
+    "current_ltp": 853.35,
     "target": 891.42,
     "status": "No"
   },
@@ -436,7 +427,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 482.27,
     "qty": 10,
-    "current_ltp": 470.4,
+    "current_ltp": 492.9,
     "target": 506.38,
     "status": "No"
   },
@@ -445,7 +436,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 1046.8,
     "qty": 4,
-    "current_ltp": 970.5,
+    "current_ltp": 952.1,
     "target": 1099.14,
     "status": "No"
   },
@@ -454,7 +445,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 364.85,
     "qty": 13,
-    "current_ltp": 343.95,
+    "current_ltp": 362.1,
     "target": 383.09,
     "status": "No"
   },
@@ -463,7 +454,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 226.2,
     "qty": 22,
-    "current_ltp": 218.99,
+    "current_ltp": 217.08,
     "target": 237.51,
     "status": "No"
   },
@@ -472,7 +463,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 157.32,
     "qty": 32,
-    "current_ltp": 148.89,
+    "current_ltp": 154.59,
     "target": 165.19,
     "status": "No"
   },
@@ -481,7 +472,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 230.96,
     "qty": 22,
-    "current_ltp": 220.29,
+    "current_ltp": 221.97,
     "target": 242.51,
     "status": "No"
   },
@@ -508,7 +499,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 546.45,
     "qty": 9,
-    "current_ltp": 528.7,
+    "current_ltp": 527.05,
     "target": 573.77,
     "status": "No"
   },
@@ -517,7 +508,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 681.65,
     "qty": 7,
-    "current_ltp": 585.5,
+    "current_ltp": 598,
     "target": 715.73,
     "status": "No"
   },
@@ -526,7 +517,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 678.61,
     "qty": 7,
-    "current_ltp": 660,
+    "current_ltp": 649.35,
     "target": 712.54,
     "status": "No"
   },
@@ -535,7 +526,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 364.25,
     "qty": 13,
-    "current_ltp": 343.05,
+    "current_ltp": 372.5,
     "target": 382.46,
     "status": "No"
   },
@@ -544,7 +535,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 276.02,
     "qty": 18,
-    "current_ltp": 241.56,
+    "current_ltp": 236.46,
     "target": 289.82,
     "status": "No"
   },
@@ -553,7 +544,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 152.7,
     "qty": 33,
-    "current_ltp": 149.27,
+    "current_ltp": 146.93,
     "target": 160.34,
     "status": "No"
   },
@@ -562,7 +553,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 245.3,
     "qty": 20,
-    "current_ltp": 225.94,
+    "current_ltp": 231.14,
     "target": 257.56,
     "status": "No"
   },
@@ -571,7 +562,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 619.8,
     "qty": 8,
-    "current_ltp": 585.8,
+    "current_ltp": 599.3,
     "target": 650.79,
     "status": "No"
   },
@@ -580,7 +571,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 1019.3,
     "qty": 4,
-    "current_ltp": 996.15,
+    "current_ltp": 983.25,
     "target": 1070.27,
     "status": "No"
   },
@@ -589,7 +580,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 167.05,
     "qty": 30,
-    "current_ltp": 162.96,
+    "current_ltp": 166.01,
     "target": 175.4,
     "status": "No"
   },
@@ -598,7 +589,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 442.15,
     "qty": 11,
-    "current_ltp": 423.7,
+    "current_ltp": 430.3,
     "target": 464.26,
     "status": "No"
   },
@@ -607,7 +598,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 305.83,
     "qty": 16,
-    "current_ltp": 289.5,
+    "current_ltp": 278.1,
     "target": 321.12,
     "status": "No"
   },
@@ -616,7 +607,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 334.35,
     "qty": 15,
-    "current_ltp": 318.65,
+    "current_ltp": 322.85,
     "target": 351.07,
     "status": "No"
   },
@@ -625,7 +616,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 514.59,
     "qty": 9,
-    "current_ltp": 513.2,
+    "current_ltp": 532.2,
     "target": 540.32,
     "status": "No"
   },
@@ -634,7 +625,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 139.4,
     "qty": 36,
-    "current_ltp": 120.22,
+    "current_ltp": 122.87,
     "target": 146.37,
     "status": "No"
   },
@@ -643,7 +634,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 726.25,
     "qty": 6,
-    "current_ltp": 689.25,
+    "current_ltp": 690.7,
     "target": 762.56,
     "status": "No"
   },
@@ -652,7 +643,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 178.69,
     "qty": 28,
-    "current_ltp": 169.35,
+    "current_ltp": 168.89,
     "target": 187.62,
     "status": "No"
   },
@@ -661,7 +652,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 486.34,
     "qty": 10,
-    "current_ltp": 496.1,
+    "current_ltp": 479.6,
     "target": 510.66,
     "status": "No"
   },
@@ -670,7 +661,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 103.06,
     "qty": 48,
-    "current_ltp": 106.14,
+    "current_ltp": 105.47,
     "target": 108.21,
     "status": "No"
   },
@@ -679,7 +670,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 978.16,
     "qty": 5,
-    "current_ltp": 930.8,
+    "current_ltp": 931.95,
     "target": 1027.07,
     "status": "No"
   },
@@ -688,7 +679,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 272.87,
     "qty": 18,
-    "current_ltp": 263.4,
+    "current_ltp": 252.65,
     "target": 286.51,
     "status": "No"
   },
@@ -697,7 +688,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 127.85,
     "qty": 39,
-    "current_ltp": 125.53,
+    "current_ltp": 127.37,
     "target": 134.24,
     "status": "No"
   },
@@ -706,7 +697,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 467.7,
     "qty": 10,
-    "current_ltp": 429.3,
+    "current_ltp": 438.5,
     "target": 491.09,
     "status": "No"
   },
@@ -715,7 +706,7 @@
     "added_date": "2026-05-26",
     "avg_buy": 807.1,
     "qty": 6,
-    "current_ltp": 785.2,
+    "current_ltp": 781.7,
     "target": 847.46,
     "status": "No"
   },
@@ -724,7 +715,7 @@
     "added_date": "2026-05-27",
     "avg_buy": 813.45,
     "qty": 6,
-    "current_ltp": 776.35,
+    "current_ltp": 790,
     "target": 894.8,
     "status": "No"
   },
@@ -733,7 +724,7 @@
     "added_date": "2026-05-27",
     "avg_buy": 267.65,
     "qty": 18,
-    "current_ltp": 261.9,
+    "current_ltp": 263.35,
     "target": 294.42,
     "status": "No"
   },
@@ -742,7 +733,7 @@
     "added_date": "2026-05-27",
     "avg_buy": 734.61,
     "qty": 6,
-    "current_ltp": 710.15,
+    "current_ltp": 726.25,
     "target": 808.07,
     "status": "No"
   },
@@ -751,7 +742,7 @@
     "added_date": "2026-05-27",
     "avg_buy": 1521,
     "qty": 3,
-    "current_ltp": 1333.9,
+    "current_ltp": 1405,
     "target": 1673.1,
     "status": "No"
   },
@@ -760,7 +751,7 @@
     "added_date": "2026-05-27",
     "avg_buy": 1256.8,
     "qty": 4,
-    "current_ltp": 1220,
+    "current_ltp": 1251.1,
     "target": 1382.48,
     "status": "No"
   },
@@ -769,7 +760,7 @@
     "added_date": "2026-05-27",
     "avg_buy": 267.85,
     "qty": 19,
-    "current_ltp": 244.9,
+    "current_ltp": 243.15,
     "target": 294.64,
     "status": "No"
   },
@@ -787,7 +778,7 @@
     "added_date": "2026-05-27",
     "avg_buy": 225.57,
     "qty": 22,
-    "current_ltp": 217.68,
+    "current_ltp": 216.04,
     "target": 248.13,
     "status": "No"
   },
@@ -796,7 +787,7 @@
     "added_date": "2026-05-28",
     "avg_buy": 534,
     "qty": 9,
-    "current_ltp": 512.6,
+    "current_ltp": 527.5,
     "target": 587.4,
     "status": "No"
   },
@@ -805,7 +796,7 @@
     "added_date": "2026-05-28",
     "avg_buy": 1341.3,
     "qty": 3,
-    "current_ltp": 1316.6,
+    "current_ltp": 1324.7,
     "target": 1475.43,
     "status": "No"
   },
@@ -814,7 +805,7 @@
     "added_date": "2026-05-28",
     "avg_buy": 475.9,
     "qty": 10,
-    "current_ltp": 464.1,
+    "current_ltp": 454.35,
     "target": 523.49,
     "status": "No"
   },
@@ -823,7 +814,7 @@
     "added_date": "2026-05-28",
     "avg_buy": 3513.61,
     "qty": 1,
-    "current_ltp": 3385.5,
+    "current_ltp": 3272.1,
     "target": 3864.97,
     "status": "No"
   },
@@ -832,7 +823,7 @@
     "added_date": "2026-05-29",
     "avg_buy": 828.95,
     "qty": 6,
-    "current_ltp": 811.7,
+    "current_ltp": 841.1,
     "target": 911.85,
     "status": "No"
   },
@@ -841,7 +832,7 @@
     "added_date": "2026-05-29",
     "avg_buy": 1970.4,
     "qty": 2,
-    "current_ltp": 1840.1,
+    "current_ltp": 1911,
     "target": 2167.44,
     "status": "No"
   },
@@ -850,7 +841,7 @@
     "added_date": "2026-05-29",
     "avg_buy": 1215.63,
     "qty": 4,
-    "current_ltp": 1157,
+    "current_ltp": 1171.3,
     "target": 1337.19,
     "status": "No"
   },
@@ -859,7 +850,7 @@
     "added_date": "2026-05-29",
     "avg_buy": 167.51,
     "qty": 30,
-    "current_ltp": 160.11,
+    "current_ltp": 164.7,
     "target": 184.26,
     "status": "No"
   },
@@ -868,7 +859,7 @@
     "added_date": "2026-05-29",
     "avg_buy": 383.08,
     "qty": 13,
-    "current_ltp": 352.75,
+    "current_ltp": 348.75,
     "target": 421.39,
     "status": "No"
   },
@@ -877,7 +868,7 @@
     "added_date": "2026-05-29",
     "avg_buy": 567.03,
     "qty": 8,
-    "current_ltp": 574.75,
+    "current_ltp": 562.65,
     "target": 623.73,
     "status": "No"
   },
@@ -886,7 +877,7 @@
     "added_date": "2026-05-29",
     "avg_buy": 1122.1,
     "qty": 4,
-    "current_ltp": 1125.2,
+    "current_ltp": 1186.5,
     "target": 1234.31,
     "status": "No"
   },
@@ -895,7 +886,7 @@
     "added_date": "2026-06-02",
     "avg_buy": 379.3,
     "qty": 14,
-    "current_ltp": 352.3,
+    "current_ltp": 349.9,
     "target": 417.23,
     "status": "No"
   },
@@ -904,7 +895,7 @@
     "added_date": "2026-06-02",
     "avg_buy": 471.2,
     "qty": 10,
-    "current_ltp": 469.05,
+    "current_ltp": 468.05,
     "target": 518.32,
     "status": "No"
   },
@@ -913,7 +904,7 @@
     "added_date": "2026-06-02",
     "avg_buy": 296.2,
     "qty": 17,
-    "current_ltp": 288.75,
+    "current_ltp": 291.7,
     "target": 325.82,
     "status": "No"
   },
@@ -922,7 +913,7 @@
     "added_date": "2026-06-02",
     "avg_buy": 252.6,
     "qty": 20,
-    "current_ltp": 244.15,
+    "current_ltp": 250.3,
     "target": 277.86,
     "status": "No"
   },
@@ -931,7 +922,7 @@
     "added_date": "2026-06-02",
     "avg_buy": 929.8,
     "qty": 5,
-    "current_ltp": 905.55,
+    "current_ltp": 919.55,
     "target": 1022.78,
     "status": "No"
   },
@@ -940,7 +931,7 @@
     "added_date": "2026-06-02",
     "avg_buy": 1918.3,
     "qty": 2,
-    "current_ltp": 1734.3,
+    "current_ltp": 1915,
     "target": 2110.13,
     "status": "No"
   },
@@ -949,7 +940,7 @@
     "added_date": "2026-06-02",
     "avg_buy": 161.72,
     "qty": 32,
-    "current_ltp": 155.13,
+    "current_ltp": 148.53,
     "target": 177.89,
     "status": "No"
   }
