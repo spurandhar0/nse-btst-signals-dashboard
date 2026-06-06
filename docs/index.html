@@ -2110,9 +2110,7 @@ function rowHTML(tab,r,n){
     const _ltp=parseFloat(r.CURRENT_LTP)||0;
     const _b2=+(_sc*0.9).toFixed(2);
     const _b3=+((_sc+_b2)/2*0.9).toFixed(2);
-    const _hitCnt=(_ltp>0&&_sc>0)?(_ltp<=_b3?3:_ltp<=_b2?2:_ltp<=_sc?1:0):0;
-    const _rowBg=_hitCnt>=3?'background:rgba(5,150,105,0.50)':_hitCnt===2?'background:rgba(5,150,105,0.32)':_hitCnt===1?'background:rgba(5,150,105,0.18)':'';
-    return `<tr${_rowBg?` style="${_rowBg}`+`"`:''}>
+    return `<tr>
       <td>${n}</td><td>${cfgBadge(r.CONFIG)}</td><td><strong>${r.SYMBOL}</strong>${foTag(r.SYMBOL)}</td>
       <td>${fD(r.SIGNAL_DATE)}</td>
       <td>&#8377;${fN(r.SIGNAL_CLOSE)}</td>
@@ -2128,10 +2126,10 @@ function rowHTML(tab,r,n){
       <td>${fI(r.MARKET_DAYS)}</td>
       <td ${pnlColor(r.PROFIT)}>&#8377;${fN(r.PROFIT)}</td>
       <td ${pnlColor(r.GAIN_PCT)}>${gp>=0?'+':''}${f2(r.GAIN_PCT)}%</td>
-      ${(()=>{const s=parseFloat(r.SIGNAL_CLOSE)||0;const b2=+(s*.9).toFixed(2);const b3=+(s*.855).toFixed(2);const b4=+(s*.7695).toFixed(2);return '<td>&#8377;'+fN(s)+'</td><td>&#8377;'+fN(b2)+'</td><td>&#8377;'+fN(b3)+'</td><td>&#8377;'+fN(b4)+'</td>';})()} 
+      ${(()=>{const s=parseFloat(r.SIGNAL_CLOSE)||0;const b2=+(s*.9).toFixed(2);const b3=+(s*.855).toFixed(2);const b4=+(s*.7695).toFixed(2);const _g='background:rgba(5,150,105,0.38);font-weight:700;';return (bc>=1?'<td style="'+_g+'">':'<td>')+'&#8377;'+fN(s)+'</td>'+(bc>=2?'<td style="'+_g+'">':'<td>')+'&#8377;'+fN(b2)+'</td>'+(bc>=3?'<td style="'+_g+'">':'<td>')+'&#8377;'+fN(b3)+'</td>'+(bc>=4?'<td style="'+_g+'">':'<td>')+'&#8377;'+fN(b4)+'</td>';})()}  
     </tr>`;
   }
-  if(tab==='closed'){
+  if(tab==='closed'||tab==='fnoclosed'){
     return `<tr>
       <td>${n}</td><td>${cfgBadge(r.CONFIG)}</td><td><strong>${r.SYMBOL}</strong>${foTag(r.SYMBOL)}</td>
       <td>${fD(r.SIGNAL_DATE)}</td><td>${fD(r.EXIT_DATE)}</td>
@@ -3778,7 +3776,7 @@ function exportPortfolioExcel() {
     </div>
     <div id="cfgModalGrid" style="overflow-y:auto;flex:1;display:flex;flex-wrap:wrap;gap:6px;padding:4px 2px;align-content:flex-start;min-height:60px;"></div>
     <div style="display:flex;justify-content:flex-end;gap:8px;margin-top:16px;border-top:1px solid #eee;padding-top:14px;">
-      <button onclick="closeConfigModal()" style="padding:8px 20px;border-radius:8px;border:1px solid #ccc;background:#fff;cursor:pointer;font-size:14px;">Cancel</button>
+      <button onclick="closeConfigModal()" style="padding:8px 20px;border-radius:8px;border:1px solid #ccc;background:#fff;color:#1e293b;cursor:pointer;font-size:14px;">Cancel</button>
       <button onclick="applyConfigFilter()" style="padding:8px 20px;border-radius:8px;border:none;background:#0d1f3c;color:#fff;cursor:pointer;font-weight:700;font-size:14px;">Apply &amp; Save</button>
     </div>
   </div>
