@@ -624,413 +624,29 @@ footer{background:var(--navy);color:rgba(255,255,255,.5);text-align:center;paddi
     <button class="btn-teal btn-sm" onclick="exportCSVTab('signals')">&#8595; CSV</button>
     <div style="flex-basis:100%;height:0;margin:0;padding:0"></div>
     <button class="btn-cfg-open" onclick="openConfigModal()">&#9881; Configs &nbsp;<span class="cfg-sel-badge" style="font-weight:400;opacity:.85">All</span></button>
-    </div>
+  </div>
+  <div class="card" style="padding:0 0 8px">
     <div class="table-area">
-      <table class="ov-table"><thead><tr>
-        <th>CONFIG</th><th>DAYS BACK</th><th>PCT MIN</th><th>PCT MAX</th>
-        <th>ATH MIN</th><th>ATH MAX</th><th>MAX BUYS</th><th>BUY DROP</th>
-        <th>TARGET</th><th>STOP LOSS</th><th>MAX DURATION</th>
+      <table><thead><tr>
+        <th>#</th>
+        <th>DATE</th>
+        <th>CONFIGS</th>
+        <th>SYMBOL</th>
+        <th>1D %</th>
+        <th>5D %</th>
+        <th>BUY PRICE &#8377;</th>
+        <th>LTP &#8377;</th>
+        <th>TARGET &#8377;</th>
+        <th>STOP LOSS &#8377;</th>
+        <th>STATUS</th>
       </tr></thead>
-      <tbody><tr>
-          <td><span class="cfg-badge">C1</span></td>
-          <td>5</td><td>-0.1</td>
-          <td>-0.03</td><td>-0.6</td>
-          <td>-0.3</td><td>4</td>
-          <td>0.05</td><td>0.1</td>
-          <td>0.25</td><td>40</td>
-        </tr><tr>
-          <td><span class="cfg-badge">C2</span></td>
-          <td>5</td><td>-0.1</td>
-          <td>-0.02</td><td>-0.6</td>
-          <td>-0.35</td><td>4</td>
-          <td>0.05</td><td>0.1</td>
-          <td>0.25</td><td>40</td>
-        </tr><tr>
-          <td><span class="cfg-badge">C3</span></td>
-          <td>5</td><td>-0.1</td>
-          <td>-0.02</td><td>-0.55</td>
-          <td>-0.35</td><td>4</td>
-          <td>0.05</td><td>0.1</td>
-          <td>0.25</td><td>40</td>
-        </tr><tr>
-          <td><span class="cfg-badge">C4</span></td>
-          <td>5</td><td>-0.09</td>
-          <td>-0.03</td><td>-0.6</td>
-          <td>-0.3</td><td>4</td>
-          <td>0.05</td><td>0.1</td>
-          <td>0.25</td><td>40</td>
-        </tr><tr>
-          <td><span class="cfg-badge">C5</span></td>
-          <td>5</td><td>-0.09</td>
-          <td>-0.02</td><td>-0.6</td>
-          <td>-0.35</td><td>4</td>
-          <td>0.05</td><td>0.1</td>
-          <td>0.25</td><td>40</td>
-        </tr><tr>
-          <td><span class="cfg-badge">C6</span></td>
-          <td>5</td><td>-0.09</td>
-          <td>-0.02</td><td>-0.55</td>
-          <td>-0.35</td><td>4</td>
-          <td>0.05</td><td>0.1</td>
-          <td>0.25</td><td>40</td>
-        </tr><tr>
-          <td><span class="cfg-badge">C7</span></td>
-          <td>5</td><td>-0.09</td>
-          <td>-0.02</td><td>-0.5</td>
-          <td>-0.35</td><td>4</td>
-          <td>0.05</td><td>0.1</td>
-          <td>0.25</td><td>40</td>
-        </tr><tr>
-          <td><span class="cfg-badge">C8</span></td>
-          <td>5</td><td>-0.08</td>
-          <td>-0.03</td><td>-0.6</td>
-          <td>-0.3</td><td>4</td>
-          <td>0.05</td><td>0.1</td>
-          <td>0.25</td><td>40</td>
-        </tr><tr>
-          <td><span class="cfg-badge">C9</span></td>
-          <td>5</td><td>-0.06</td>
-          <td>-0.04</td><td>-0.4</td>
-          <td>-0.35</td><td>4</td>
-          <td>0.05</td><td>0.1</td>
-          <td>0.25</td><td>40</td>
-        </tr><tr>
-          <td><span class="cfg-badge">C10</span></td>
-          <td>10</td><td>-0.1</td>
-          <td>-0.05</td><td>-0.6</td>
-          <td>-0.4</td><td>4</td>
-          <td>0.05</td><td>0.1</td>
-          <td>0.25</td><td>40</td>
-        </tr><tr>
-          <td><span class="cfg-badge">C11</span></td>
-          <td>10</td><td>-0.1</td>
-          <td>-0.05</td><td>-0.6</td>
-          <td>-0.35</td><td>4</td>
-          <td>0.05</td><td>0.1</td>
-          <td>0.25</td><td>40</td>
-        </tr><tr>
-          <td><span class="cfg-badge">C12</span></td>
-          <td>10</td><td>-0.1</td>
-          <td>-0.05</td><td>-0.55</td>
-          <td>-0.4</td><td>4</td>
-          <td>0.05</td><td>0.1</td>
-          <td>0.25</td><td>40</td>
-        </tr><tr>
-          <td><span class="cfg-badge">C13</span></td>
-          <td>10</td><td>-0.1</td>
-          <td>-0.05</td><td>-0.55</td>
-          <td>-0.35</td><td>4</td>
-          <td>0.05</td><td>0.1</td>
-          <td>0.25</td><td>40</td>
-        </tr><tr>
-          <td><span class="cfg-badge">C14</span></td>
-          <td>10</td><td>-0.1</td>
-          <td>-0.05</td><td>-0.5</td>
-          <td>-0.4</td><td>4</td>
-          <td>0.05</td><td>0.1</td>
-          <td>0.25</td><td>40</td>
-        </tr><tr>
-          <td><span class="cfg-badge">C15</span></td>
-          <td>10</td><td>-0.1</td>
-          <td>-0.05</td><td>-0.45</td>
-          <td>-0.4</td><td>4</td>
-          <td>0.05</td><td>0.1</td>
-          <td>0.25</td><td>40</td>
-        </tr><tr>
-          <td><span class="cfg-badge">C16</span></td>
-          <td>10</td><td>-0.1</td>
-          <td>-0.05</td><td>-0.45</td>
-          <td>-0.35</td><td>4</td>
-          <td>0.05</td><td>0.1</td>
-          <td>0.25</td><td>40</td>
-        </tr><tr>
-          <td><span class="cfg-badge">C17</span></td>
-          <td>10</td><td>-0.09</td>
-          <td>-0.05</td><td>-0.6</td>
-          <td>-0.4</td><td>4</td>
-          <td>0.05</td><td>0.1</td>
-          <td>0.25</td><td>40</td>
-        </tr><tr>
-          <td><span class="cfg-badge">C18</span></td>
-          <td>10</td><td>-0.09</td>
-          <td>-0.05</td><td>-0.6</td>
-          <td>-0.35</td><td>4</td>
-          <td>0.05</td><td>0.1</td>
-          <td>0.25</td><td>40</td>
-        </tr><tr>
-          <td><span class="cfg-badge">C19</span></td>
-          <td>10</td><td>-0.09</td>
-          <td>-0.05</td><td>-0.55</td>
-          <td>-0.4</td><td>4</td>
-          <td>0.05</td><td>0.1</td>
-          <td>0.25</td><td>40</td>
-        </tr><tr>
-          <td><span class="cfg-badge">C20</span></td>
-          <td>10</td><td>-0.09</td>
-          <td>-0.05</td><td>-0.45</td>
-          <td>-0.4</td><td>4</td>
-          <td>0.05</td><td>0.1</td>
-          <td>0.25</td><td>40</td>
-        </tr><tr>
-          <td><span class="cfg-badge">C21</span></td>
-          <td>10</td><td>-0.09</td>
-          <td>-0.05</td><td>-0.45</td>
-          <td>-0.35</td><td>4</td>
-          <td>0.05</td><td>0.1</td>
-          <td>0.25</td><td>40</td>
-        </tr><tr>
-          <td><span class="cfg-badge">C22</span></td>
-          <td>5</td><td>-0.09</td>
-          <td>-0.04</td><td>-0.6</td>
-          <td>-0.35</td><td>4</td>
-          <td>0.05</td><td>0.1</td>
-          <td>0.25</td><td>40</td>
-        </tr><tr>
-          <td><span class="cfg-badge">C23</span></td>
-          <td>5</td><td>-0.08</td>
-          <td>-0.04</td><td>-0.6</td>
-          <td>-0.35</td><td>4</td>
-          <td>0.05</td><td>0.1</td>
-          <td>0.25</td><td>40</td>
-        </tr><tr>
-          <td><span class="cfg-badge">C24</span></td>
-          <td>5</td><td>-0.1</td>
-          <td>-0.04</td><td>-0.6</td>
-          <td>-0.35</td><td>4</td>
-          <td>0.1</td><td>0.1</td>
-          <td>0.25</td><td>40</td>
-        </tr><tr>
-          <td><span class="cfg-badge">C25</span></td>
-          <td>5</td><td>-0.09</td>
-          <td>-0.04</td><td>-0.6</td>
-          <td>-0.35</td><td>4</td>
-          <td>0.1</td><td>0.1</td>
-          <td>0.25</td><td>40</td>
-        </tr><tr>
-          <td><span class="cfg-badge">C26</span></td>
-          <td>5</td><td>-0.08</td>
-          <td>-0.04</td><td>-0.6</td>
-          <td>-0.3</td><td>4</td>
-          <td>0.1</td><td>0.1</td>
-          <td>0.25</td><td>40</td>
-        </tr><tr>
-          <td><span class="cfg-badge">C27</span></td>
-          <td>5</td><td>-0.06</td>
-          <td>-0.04</td><td>-0.4</td>
-          <td>-0.35</td><td>4</td>
-          <td>0.1</td><td>0.1</td>
-          <td>0.25</td><td>40</td>
-        </tr>
-<tr>
-          <td><span class="cfg-badge">C28</span></td>
-          <td>10</td><td>-0.1</td>
-          <td>-0.05</td><td>-0.6</td>
-          <td>-0.4</td><td>3</td>
-          <td>0.1</td><td>0.1</td>
-          <td>0.25</td><td>40</td>
-        </tr>
-<tr>
-          <td><span class="cfg-badge">C29</span></td>
-          <td>10</td><td>-0.1</td>
-          <td>-0.05</td><td>-0.6</td>
-          <td>-0.4</td><td>4</td>
-          <td>0.1</td><td>0.1</td>
-          <td>0.25</td><td>40</td>
-        </tr>
-<tr>
-          <td><span class="cfg-badge">C30</span></td>
-          <td>10</td><td>-0.1</td>
-          <td>-0.05</td><td>-0.6</td>
-          <td>-0.35</td><td>3</td>
-          <td>0.1</td><td>0.1</td>
-          <td>0.25</td><td>40</td>
-        </tr>
-<tr>
-          <td><span class="cfg-badge">C31</span></td>
-          <td>10</td><td>-0.1</td>
-          <td>-0.05</td><td>-0.6</td>
-          <td>-0.35</td><td>4</td>
-          <td>0.1</td><td>0.1</td>
-          <td>0.25</td><td>40</td>
-        </tr>
-<tr>
-          <td><span class="cfg-badge">C32</span></td>
-          <td>10</td><td>-0.1</td>
-          <td>-0.05</td><td>-0.55</td>
-          <td>-0.35</td><td>4</td>
-          <td>0.1</td><td>0.1</td>
-          <td>0.25</td><td>40</td>
-        </tr>
-<tr>
-          <td><span class="cfg-badge">C33</span></td>
-          <td>10</td><td>-0.1</td>
-          <td>-0.04</td><td>-0.6</td>
-          <td>-0.4</td><td>3</td>
-          <td>0.1</td><td>0.1</td>
-          <td>0.25</td><td>40</td>
-        </tr>
-<tr>
-          <td><span class="cfg-badge">C34</span></td>
-          <td>10</td><td>-0.1</td>
-          <td>-0.04</td><td>-0.6</td>
-          <td>-0.4</td><td>4</td>
-          <td>0.05</td><td>0.1</td>
-          <td>0.25</td><td>40</td>
-        </tr>
-<tr>
-          <td><span class="cfg-badge">C35</span></td>
-          <td>10</td><td>-0.1</td>
-          <td>-0.04</td><td>-0.6</td>
-          <td>-0.4</td><td>4</td>
-          <td>0.1</td><td>0.1</td>
-          <td>0.25</td><td>40</td>
-        </tr>
-<tr>
-          <td><span class="cfg-badge">C36</span></td>
-          <td>10</td><td>-0.1</td>
-          <td>-0.04</td><td>-0.6</td>
-          <td>-0.35</td><td>4</td>
-          <td>0.1</td><td>0.1</td>
-          <td>0.25</td><td>40</td>
-        </tr>
-<tr>
-          <td><span class="cfg-badge">C37</span></td>
-          <td>10</td><td>-0.09</td>
-          <td>-0.05</td><td>-0.6</td>
-          <td>-0.4</td><td>3</td>
-          <td>0.1</td><td>0.1</td>
-          <td>0.25</td><td>40</td>
-        </tr>
-<tr>
-          <td><span class="cfg-badge">C38</span></td>
-          <td>10</td><td>-0.09</td>
-          <td>-0.05</td><td>-0.6</td>
-          <td>-0.4</td><td>4</td>
-          <td>0.1</td><td>0.1</td>
-          <td>0.25</td><td>40</td>
-        </tr>
-<tr>
-          <td><span class="cfg-badge">C39</span></td>
-          <td>10</td><td>-0.09</td>
-          <td>-0.05</td><td>-0.6</td>
-          <td>-0.35</td><td>3</td>
-          <td>0.1</td><td>0.1</td>
-          <td>0.25</td><td>40</td>
-        </tr>
-<tr>
-          <td><span class="cfg-badge">C40</span></td>
-          <td>10</td><td>-0.09</td>
-          <td>-0.05</td><td>-0.6</td>
-          <td>-0.35</td><td>4</td>
-          <td>0.1</td><td>0.1</td>
-          <td>0.25</td><td>40</td>
-        </tr>
-<tr>
-          <td><span class="cfg-badge">C41</span></td>
-          <td>10</td><td>-0.09</td>
-          <td>-0.05</td><td>-0.55</td>
-          <td>-0.35</td><td>4</td>
-          <td>0.1</td><td>0.1</td>
-          <td>0.25</td><td>40</td>
-        </tr>
-<tr>
-          <td><span class="cfg-badge">C42</span></td>
-          <td>10</td><td>-0.09</td>
-          <td>-0.04</td><td>-0.6</td>
-          <td>-0.4</td><td>3</td>
-          <td>0.1</td><td>0.1</td>
-          <td>0.25</td><td>40</td>
-        </tr>
-<tr>
-          <td><span class="cfg-badge">C43</span></td>
-          <td>10</td><td>-0.09</td>
-          <td>-0.04</td><td>-0.6</td>
-          <td>-0.4</td><td>4</td>
-          <td>0.05</td><td>0.1</td>
-          <td>0.25</td><td>40</td>
-        </tr>
-<tr>
-          <td><span class="cfg-badge">C44</span></td>
-          <td>10</td><td>-0.09</td>
-          <td>-0.04</td><td>-0.6</td>
-          <td>-0.4</td><td>4</td>
-          <td>0.1</td><td>0.1</td>
-          <td>0.25</td><td>40</td>
-        </tr>
-<tr>
-          <td><span class="cfg-badge">C45</span></td>
-          <td>10</td><td>-0.09</td>
-          <td>-0.04</td><td>-0.6</td>
-          <td>-0.35</td><td>4</td>
-          <td>0.1</td><td>0.1</td>
-          <td>0.25</td><td>40</td>
-        </tr>
-<tr>
-          <td><span class="cfg-badge">C46</span></td>
-          <td>10</td><td>-0.09</td>
-          <td>-0.04</td><td>-0.45</td>
-          <td>-0.35</td><td>4</td>
-          <td>0.1</td><td>0.1</td>
-          <td>0.25</td><td>40</td>
-        </tr>
-<tr>
-          <td><span class="cfg-badge">C47</span></td>
-          <td>10</td><td>-0.09</td>
-          <td>-0.04</td><td>-0.4</td>
-          <td>-0.35</td><td>4</td>
-          <td>0.1</td><td>0.1</td>
-          <td>0.25</td><td>40</td>
-        </tr>
-<tr>
-          <td><span class="cfg-badge">C48</span></td>
-          <td>10</td><td>-0.1</td>
-          <td>-0.05</td><td>-0.6</td>
-          <td>-0.4</td><td>2</td>
-          <td>0.15</td><td>0.1</td>
-          <td>0.25</td><td>40</td>
-        </tr>
-<tr>
-          <td><span class="cfg-badge">C49</span></td>
-          <td>10</td><td>-0.1</td>
-          <td>-0.05</td><td>-0.6</td>
-          <td>-0.4</td><td>3</td>
-          <td>0.15</td><td>0.1</td>
-          <td>0.25</td><td>40</td>
-        </tr>
-<tr>
-          <td><span class="cfg-badge">C50</span></td>
-          <td>10</td><td>-0.1</td>
-          <td>-0.05</td><td>-0.6</td>
-          <td>-0.4</td><td>4</td>
-          <td>0.15</td><td>0.1</td>
-          <td>0.25</td><td>40</td>
-        </tr>
-<tr>
-          <td><span class="cfg-badge">C51</span></td>
-          <td>10</td><td>-0.1</td>
-          <td>-0.05</td><td>-0.55</td>
-          <td>-0.4</td><td>3</td>
-          <td>0.1</td><td>0.1</td>
-          <td>0.25</td><td>40</td>
-        </tr>
-<tr>
-          <td><span class="cfg-badge">C52</span></td>
-          <td>10</td><td>-0.1</td>
-          <td>-0.05</td><td>-0.55</td>
-          <td>-0.4</td><td>4</td>
-          <td>0.1</td><td>0.1</td>
-          <td>0.25</td><td>40</td>
-        </tr>
-      </tbody></table>
+      <tbody id="signals-body"></tbody></table>
     </div>
-    <div style="margin-top:20px;padding:16px;background:#f8faff;border-radius:10px;border:1.5px solid #c7d7fe;font-size:13px;color:var(--text2);line-height:1.8">
-      <strong>DAYS BACK:</strong> Look-back window for N-day low &nbsp;&bull;&nbsp;
-      <strong>PCT MIN/MAX:</strong> % change from N-day low range &nbsp;&bull;&nbsp;
-      <strong>ATH MIN/MAX:</strong> % from All-Time-High range<br>
-      <strong>MAX BUYS:</strong> Max averaging positions &nbsp;&bull;&nbsp;
-      <strong>BUY DROP:</strong> Drop % to trigger next buy &nbsp;&bull;&nbsp;
-      <strong>TARGET/SL:</strong> Exit thresholds &nbsp;&bull;&nbsp;
-      <strong>MAX DURATION:</strong> Max holding days
+    <div class="pager">
+      <span class="info" id="signals-info"></span><div style="flex:1"></div>
+      <button class="btn-sm btn-outline" onclick="pg('signals',-1)">&#8249; Prev</button>
+      <button class="btn-sm btn-outline" onclick="pg('signals',1)">Next &#8250;</button>
+      <select id="signals-pgsize" onchange="renderTab('signals')"><option value="25">25</option><option value="50" selected>50</option><option value="100">100</option><option value="9999">All</option></select>
     </div>
   </div>
 </div>
@@ -2308,7 +1924,8 @@ function pgHist(dir){
 function setPager(tab,cur,total,pgSz){
   const pages=Math.max(1,Math.ceil(total/pgSz));
   if(cur>pages){state[tab].page=pages;}
-  document.getElementById(tab+'-info').textContent=`${(cur-1)*pgSz+1}–${Math.min(cur*pgSz,total)} of ${total} | Page ${Math.min(cur,pages)}/${pages}`;
+  const _infoEl=document.getElementById(tab+'-info');
+  if(_infoEl) _infoEl.textContent=`${(cur-1)*pgSz+1}–${Math.min(cur*pgSz,total)} of ${total} | Page ${Math.min(cur,pages)}/${pages}`;
 }
 
 // ─── GET FILTERED DATA ────────────────────────────────────────────────────────
@@ -2627,6 +2244,7 @@ function renderSignals(rows){
   const slice=rows.slice(start,start+pgSz);
   setPager('signals',page,rows.length,pgSz);
   const body=document.getElementById('signals-body');
+  if(!body){console.warn('signals-body missing');return;}
   if(!slice.length){body.innerHTML='<tr><td colspan="11" class="empty">No signals.</td></tr>';return;}
   body.innerHTML=slice.map((r,i)=>{
     const sym=r.SYMBOL||r.symbol||'—';
@@ -2817,11 +2435,12 @@ function buildHistory(){
   setPager('hist',page,rows.length,pgSz);
 
   if(!slice.length){
-    document.getElementById('hist-container').innerHTML='<div class="card empty">No executed trades found.</div>';
+    const _hce=document.getElementById('hist-container');if(_hce)_hce.innerHTML='<div class="card empty">No executed trades found.</div>';
     return;
   }
 
-  document.getElementById('hist-container').innerHTML=slice.map((r,i)=>{
+  const _hc=document.getElementById('hist-container');if(!_hc)return;
+  _hc.innerHTML=slice.map((r,i)=>{
     const pnl=parseFloat(r.PROFIT)||0;
     const pct=parseFloat(r.GAIN_PCT)||0;
     const isSold=r.STATUS!=='Open';
