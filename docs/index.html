@@ -430,19 +430,28 @@ footer{background:var(--navy);color:rgba(255,255,255,.5);text-align:center;paddi
     <div class="table-area">
       <table><thead><tr>
         <th onclick="srt('uniopen',0)">#</th>
-        <th onclick="srt('uniopen',1)">CFG</th>
+        <th onclick="srt('uniopen',1)">CONFIG</th>
         <th onclick="srt('uniopen',2)">SYMBOL</th>
-        <th onclick="srt('uniopen',3)">BUY DATE</th>
-        <th onclick="srt('uniopen',4)">AVG BUY &#8377;</th>
-        <th onclick="srt('uniopen',5)">CURRENT LTP &#8377;</th>
-        <th onclick="srt('uniopen',6)">TARGET &#8377;</th>
-        <th onclick="srt('uniopen',7)">STOP &#8377;</th>
-        <th onclick="srt('uniopen',8)">BUYS</th>
-        <th onclick="srt('uniopen',9)">QTY</th>
-        <th onclick="srt('uniopen',10)">INVESTED &#8377;</th>
-        <th onclick="srt('uniopen',11)">MARKET DAYS</th>
-        <th onclick="srt('uniopen',12)">UNREAL P&amp;L &#8377;</th>
-        <th onclick="srt('uniopen',13)">GAIN %</th>
+        <th onclick="srt('uniopen',3)">SIGNAL_DATE</th>
+        <th onclick="srt('uniopen',4)">SIGNAL_CLOSE</th>
+        <th onclick="srt('uniopen',5)">CHG_1D</th>
+        <th onclick="srt('uniopen',6)">PCT_FROM_LOW</th>
+        <th onclick="srt('uniopen',7)">MIN_5D_LOW</th>
+        <th onclick="srt('uniopen',8)">MIN_5D_DATE</th>
+        <th onclick="srt('uniopen',9)">CURRENT_LTP</th>
+        <th onclick="srt('uniopen',10)">BUY_COUNT</th>
+        <th onclick="srt('uniopen',11)">AVG_BUY_PRICE</th>
+        <th onclick="srt('uniopen',12)">TOTAL_QTY</th>
+        <th onclick="srt('uniopen',13)">TOTAL_INVESTMENT</th>
+        <th onclick="srt('uniopen',14)">TARGET_PRICE</th>
+        <th onclick="srt('uniopen',15)">STOP_PRICE</th>
+        <th onclick="srt('uniopen',16)">MARKET_DAYS</th>
+        <th onclick="srt('uniopen',17)">PROFIT</th>
+        <th onclick="srt('uniopen',18)">GAIN_PCT</th>
+        <th>Buy1</th>
+        <th>Buy2</th>
+        <th>Buy3</th>
+        <th>Buy4</th>
       </tr></thead>
       <tbody id="uniopen-body"></tbody></table>
     </div>
@@ -511,19 +520,28 @@ footer{background:var(--navy);color:rgba(255,255,255,.5);text-align:center;paddi
     <div class="table-area">
       <table><thead><tr>
         <th onclick="srt('unifno',0)">#</th>
-        <th onclick="srt('unifno',1)">CFG</th>
+        <th onclick="srt('unifno',1)">CONFIG</th>
         <th onclick="srt('unifno',2)">SYMBOL</th>
-        <th onclick="srt('unifno',3)">BUY DATE</th>
-        <th onclick="srt('unifno',4)">AVG BUY &#8377;</th>
-        <th onclick="srt('unifno',5)">CURRENT LTP &#8377;</th>
-        <th onclick="srt('unifno',6)">TARGET &#8377;</th>
-        <th onclick="srt('unifno',7)">STOP &#8377;</th>
-        <th onclick="srt('unifno',8)">BUYS</th>
-        <th onclick="srt('unifno',9)">QTY</th>
-        <th onclick="srt('unifno',10)">INVESTED &#8377;</th>
-        <th onclick="srt('unifno',11)">MARKET DAYS</th>
-        <th onclick="srt('unifno',12)">UNREAL P&amp;L &#8377;</th>
-        <th onclick="srt('unifno',13)">GAIN %</th>
+        <th onclick="srt('unifno',3)">SIGNAL_DATE</th>
+        <th onclick="srt('unifno',4)">SIGNAL_CLOSE</th>
+        <th onclick="srt('unifno',5)">CHG_1D</th>
+        <th onclick="srt('unifno',6)">PCT_FROM_LOW</th>
+        <th onclick="srt('unifno',7)">MIN_5D_LOW</th>
+        <th onclick="srt('unifno',8)">MIN_5D_DATE</th>
+        <th onclick="srt('unifno',9)">CURRENT_LTP</th>
+        <th onclick="srt('unifno',10)">BUY_COUNT</th>
+        <th onclick="srt('unifno',11)">AVG_BUY_PRICE</th>
+        <th onclick="srt('unifno',12)">TOTAL_QTY</th>
+        <th onclick="srt('unifno',13)">TOTAL_INVESTMENT</th>
+        <th onclick="srt('unifno',14)">TARGET_PRICE</th>
+        <th onclick="srt('unifno',15)">STOP_PRICE</th>
+        <th onclick="srt('unifno',16)">MARKET_DAYS</th>
+        <th onclick="srt('unifno',17)">PROFIT</th>
+        <th onclick="srt('unifno',18)">GAIN_PCT</th>
+        <th>Buy1</th>
+        <th>Buy2</th>
+        <th>Buy3</th>
+        <th>Buy4</th>
       </tr></thead>
       <tbody id="unifno-body"></tbody></table>
     </div>
@@ -1761,7 +1779,7 @@ function getTabSortVals(tab,a,b,col){
     return[nv(a[k]),nv(b[k])];
   }
   if(tab==='uniopen'||tab==='unifno'){
-    const cols=[0,'CONFIG','SYMBOL','SIGNAL_DATE','AVG_BUY_PRICE','CURRENT_LTP','TARGET_PRICE','STOP_PRICE','BUY_COUNT','TOTAL_QTY','TOTAL_INVESTMENT','MARKET_DAYS','PROFIT','GAIN_PCT'];
+    const cols=[0,'CONFIG','SYMBOL','SIGNAL_DATE','SIGNAL_CLOSE','CHG_1D','PCT_FROM_LOW','MIN_5D_LOW','MIN_5D_DATE','CURRENT_LTP','BUY_COUNT','AVG_BUY_PRICE','TOTAL_QTY','TOTAL_INVESTMENT','TARGET_PRICE','STOP_PRICE','MARKET_DAYS','PROFIT','GAIN_PCT'];
     const k=cols[col]||'SYMBOL';
     if(typeof a[k]==='string')return[sv(a[k]),sv(b[k])];
     return[nv(a[k]),nv(b[k])];
