@@ -970,5 +970,14 @@
     "current_ltp": 174.14,
     "target": 211.55,
     "status": "No"
+  },
+  {
+    "symbol": "TECHNOE",
+    "added_date": "2026-06-06",
+    "avg_buy": 1072.6,
+    "qty": 4,
+    "current_ltp": 1017,
+    "target": 1179.86,
+    "status": "No"
   }
 ]
