@@ -979,5 +979,14 @@
     "current_ltp": 633.9,
     "target": 728.56,
     "status": "No"
+  },
+  {
+    "symbol": "MBEL",
+    "added_date": "2026-06-06",
+    "avg_buy": 299.99,
+    "qty": 17,
+    "current_ltp": 280.55,
+    "target": 329.99,
+    "status": "No"
   }
 ]
