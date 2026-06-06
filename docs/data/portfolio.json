@@ -979,5 +979,14 @@
     "current_ltp": 1109.9,
     "target": 1285.06,
     "status": "No"
+  },
+  {
+    "symbol": "PIIND",
+    "added_date": "2026-06-06",
+    "avg_buy": 2901.2,
+    "qty": 1,
+    "current_ltp": 2717.9,
+    "target": 3191.32,
+    "status": "No"
   }
 ]
