@@ -961,5 +961,14 @@
     "current_ltp": 408.9,
     "target": 480.83,
     "status": "No"
+  },
+  {
+    "symbol": "TIRUMALCHM",
+    "added_date": "2026-06-06",
+    "avg_buy": 192.32,
+    "qty": 28,
+    "current_ltp": 174.14,
+    "target": 211.55,
+    "status": "No"
   }
 ]
