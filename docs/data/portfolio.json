@@ -979,5 +979,14 @@
     "current_ltp": 280.55,
     "target": 329.99,
     "status": "No"
+  },
+  {
+    "symbol": "SOLEX",
+    "added_date": "2026-06-06",
+    "avg_buy": 1168.24,
+    "qty": 4,
+    "current_ltp": 1109.9,
+    "target": 1285.06,
+    "status": "No"
   }
 ]
