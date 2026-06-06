@@ -235,6 +235,12 @@ footer{background:var(--navy);color:rgba(255,255,255,.5);text-align:center;paddi
         <tbody id="ov-body"></tbody>
       </table>
     </div>
+    <div class="pager" style="padding:8px 12px">
+      <button class="btn-sm btn-outline" onclick="pgTab('overview',-1)">&#8249; Prev</button>
+      <span id="overview-info" class="info"></span>
+      <button class="btn-sm btn-outline" onclick="pgTab('overview',1)">Next &#8250;</button>
+      <select id="overview-pgsize" onchange="(function(){if(!state['overview'])state['overview']={page:1};state['overview'].page=1;pgTab('overview',0);})()"><option value="10">10</option><option value="25" selected>25</option><option value="50">50</option><option value="100">100</option></select>
+    </div>
   </div>
 </div>
 
@@ -1527,6 +1533,7 @@ function inDateRange(dateStr){
 
 // ─── STATE ───────────────────────────────────────────────────────────────────
 const state = {
+  overview:    {page:1},
   open:        {cfg:'ALL', page:1, sort:0, asc:false},
   closed:      {cfg:'ALL', res:'ALL', page:1, sort:0, asc:false},
   fe:          {cfg:'ALL', page:1, sort:0, asc:false},
@@ -1713,7 +1720,8 @@ function pg(tab,dir){
 function pgTab(tab,dir){
   if(!state[tab]) state[tab]={page:1};
   state[tab].page=Math.max(1,(state[tab].page||1)+dir);
-  if(tab==='avgtrigger') renderAvgTrigger();
+  if(tab==='overview') buildOverview();
+  else if(tab==='avgtrigger') renderAvgTrigger();
   else if(tab==='selltrigger') renderSellTrigger();
   else if(tab==='avghistory') renderAvgHistory();
   else if(tab==='marketdata') renderMarketData();
@@ -1734,6 +1742,25 @@ function setPager(tab,cur,total,pgSz){
   if(_infoEl) _infoEl.textContent=`${(cur-1)*pgSz+1}–${Math.min(cur*pgSz,total)} of ${total} | Page ${Math.min(cur,pages)}/${pages}`;
 }
 
+// ─── DEDUPLICATE BY SYMBOL ──────────────────────────────────────────────────
+// mode='min': keep cheapest AVG_BUY_PRICE per symbol (Open Positions / F&O Open)
+// mode='max': keep highest  AVG_BUY_PRICE per symbol (Closed Positions / F&O Closed)
+function dedupeBySymbol(rows, mode) {
+  const map = {};
+  for (const r of rows) {
+    const sym = (r.SYMBOL || '').toUpperCase();
+    const avg = parseFloat(r.AVG_BUY_PRICE) || 0;
+    if (!map[sym]) {
+      map[sym] = r;
+    } else {
+      const ex = parseFloat(map[sym].AVG_BUY_PRICE) || 0;
+      if (mode === 'min' && avg < ex) map[sym] = r;
+      if (mode === 'max' && avg > ex) map[sym] = r;
+    }
+  }
+  return Object.values(map);
+}
+
 // ─── GET FILTERED DATA ────────────────────────────────────────────────────────
 function getFiltered(tab){
   let rows = ALL_ROWS;
@@ -1745,6 +1772,7 @@ function getFiltered(tab){
     if(dateRangeActive) rows=rows.filter(r=>inDateRange(r.SIGNAL_DATE));
     const _os=(document.getElementById('open-search')||{}).value||'';
     if(_os) rows=rows.filter(r=>(r.SYMBOL||'').toUpperCase().includes(_os.toUpperCase()));
+    rows = dedupeBySymbol(rows, 'min'); // unique symbols — cheapest entry across all configs
   }
   else if(tab==='closed'){
     rows = rows.filter(r=>r.STATUS==='Closed'&&r.RESULT);
@@ -1755,6 +1783,7 @@ function getFiltered(tab){
     if(dateRangeActive) rows=rows.filter(r=>inDateRange(r.SIGNAL_DATE));
     const _cs=(document.getElementById('closed-search')||{}).value||'';
     if(_cs) rows=rows.filter(r=>(r.SYMBOL||'').toUpperCase().includes(_cs.toUpperCase()));
+    rows = dedupeBySymbol(rows, 'max'); // unique symbols — highest avg buy price per symbol
   }
   else if(tab==='fe'){
     const cfgDurMap={};
@@ -1825,6 +1854,7 @@ function getFiltered(tab){
     if(dateRangeActive) rows=rows.filter(r=>inDateRange(r.SIGNAL_DATE));
     const _fs=(document.getElementById('fno-search')||{}).value||'';
     if(_fs) rows=rows.filter(r=>(r.SYMBOL||'').toUpperCase().includes(_fs.toUpperCase()));
+    rows = dedupeBySymbol(rows, 'min'); // unique F&O symbols — cheapest entry across all configs
   }
   else if(tab==='fnoclosed'){
     rows = rows.filter(r=>r.STATUS==='Closed'&&r.RESULT&&FO_SYMBOLS.has((r.SYMBOL||'').toUpperCase()));
@@ -1834,6 +1864,7 @@ function getFiltered(tab){
     if(dateRangeActive) rows=rows.filter(r=>inDateRange(r.SIGNAL_DATE));
     const _fcs=(document.getElementById('fnoclosed-search')||{}).value||'';
     if(_fcs) rows=rows.filter(r=>(r.SYMBOL||'').toUpperCase().includes(_fcs.toUpperCase()));
+    rows = dedupeBySymbol(rows, 'max'); // unique F&O symbols — highest avg buy price per symbol
   }
 
   // Sort
@@ -3035,7 +3066,17 @@ function buildOverview(){
     totPnl+=pnl; totPT+=profitTrades.length; totLoss+=lossTrades.length;
   });
 
-  document.getElementById('ov-body').innerHTML=rows.join('');
+  // ── Paginate overview rows ────────────────────────────────────────────
+  const _ovPgSzEl=document.getElementById('overview-pgsize');
+  const _ovPgSz=_ovPgSzEl?parseInt(_ovPgSzEl.value):25;
+  if(!state.overview) state.overview={page:1};
+  const _ovPages=Math.max(1,Math.ceil(rows.length/_ovPgSz));
+  if(state.overview.page>_ovPages) state.overview.page=_ovPages;
+  const _ovStart=(state.overview.page-1)*_ovPgSz;
+  const _ovSlice=rows.slice(_ovStart,_ovStart+_ovPgSz);
+  const _ovInfoEl=document.getElementById('overview-info');
+  if(_ovInfoEl) _ovInfoEl.textContent=`${_ovStart+1}–${Math.min(state.overview.page*_ovPgSz,rows.length)} of ${rows.length} | Page ${state.overview.page}/${_ovPages}`;
+  document.getElementById('ov-body').innerHTML=_ovSlice.join('');
   const totWr=totPT+totLoss>0?(totPT/(totPT+totLoss)*100).toFixed(1)+'%':'—';
 
   let totalSigsFiltered = (!_selCfgs) ? ALL_ROWS : ALL_ROWS.filter(r=>cfgMatch(r.CONFIG));
