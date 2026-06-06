@@ -1466,7 +1466,7 @@ function statusFilterHist(val,btn){
 let _selCfgs = null;
 function cfgMatch(cfg){ return !_selCfgs||_selCfgs.has(cfg); }
 function _initCfgSelector(){
-  const saved=localStorage.getItem('btst_sel_cfgs');
+  const saved=localStorage.getItem('btst_sel_cfgs_v1');
   if(saved){ try{ const arr=JSON.parse(saved);
     _selCfgs=arr.length===CONFIGS_DEF.length?null:new Set(arr);
   }catch(e){ _selCfgs=null; } }
@@ -1508,7 +1508,7 @@ function cfgClearAll(){ _selCfgs=new Set(); _renderCfgModal(); }
 function applyConfigFilter(){
   const all=new Set(CONFIGS_DEF.map(c=>c.id));
   if(_selCfgs&&_selCfgs.size>=all.size) _selCfgs=null;
-  try{ localStorage.setItem('btst_sel_cfgs',JSON.stringify(_selCfgs?[..._selCfgs]:[...all])); }catch(e){}
+  try{ localStorage.setItem('btst_sel_cfgs_v1',JSON.stringify(_selCfgs?[..._selCfgs]:[...all])); }catch(e){}
   closeConfigModal(); _updateCfgBadges();
   const at=document.querySelector('.tab.active'); if(at) at.click();
 }
