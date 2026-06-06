@@ -952,5 +952,14 @@
     "current_ltp": 589.6,
     "target": 712.2,
     "status": "No"
+  },
+  {
+    "symbol": "MARATHON",
+    "added_date": "2026-06-06",
+    "avg_buy": 437.12,
+    "qty": 12,
+    "current_ltp": 408.9,
+    "target": 480.83,
+    "status": "No"
   }
 ]
