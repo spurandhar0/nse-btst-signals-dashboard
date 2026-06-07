@@ -1859,7 +1859,7 @@ function renderTab(tab){
 }
 
 function rowHTML(tab,r,n){
-  if(tab==='open'||tab==='fno'||tab==='uniopen'||tab==='unifno'){
+  if(tab==='open'||tab==='fno'){
     const pl=parseFloat(r.PROFIT)||0;
     const gp=parseFloat(r.GAIN_PCT)||0;
     const bc=parseInt(r.BUY_COUNT||1);
